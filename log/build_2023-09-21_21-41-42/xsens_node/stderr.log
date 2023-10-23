@@ -1,0 +1,7 @@
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_receiver.cpp:[m[K In member function ‘[01m[Kvoid XsensReceiver::callback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_receiver.cpp:35:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _stamp_type = struct builtin_interfaces::msg::Time_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct builtin_interfaces::msg::Time_<std::allocator<void> >[m[K’} has no member named ‘[01m[KtoSec[m[K’
+   35 |         current_time = msg->header.stamp.[01;31m[KtoSec[m[K();
+      |                                          [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/xsens_rec.dir/build.make:76: CMakeFiles/xsens_rec.dir/src/xsens_data_receiver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/xsens_rec.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

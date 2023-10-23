@@ -1,0 +1,4 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/xsens_rec.dir/src/xsens_data_receiver.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable xsens_rec[0m
+[ 75%] Built target xsens_rec

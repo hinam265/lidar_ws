@@ -1,0 +1,205 @@
+[0.262s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.262s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fdaa56cfca0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fdaa56cf730>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fdaa56cf730>>)
+[0.278s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.279s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.279s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ngocdai/lidar_ws'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.287s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_library) by extensions ['ignore', 'ignore_ament_install']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_library) by extension 'ignore'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_library) by extension 'ignore_ament_install'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_library) by extensions ['colcon_pkg']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_library) by extension 'colcon_pkg'
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_library) by extensions ['colcon_meta']
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_library) by extension 'colcon_meta'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_library) by extensions ['ros']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_library) by extension 'ros'
+[0.290s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xsens_library' with type 'ros.ament_cmake' and name 'xsens_library'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_node) by extensions ['ignore', 'ignore_ament_install']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_node) by extension 'ignore'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_node) by extension 'ignore_ament_install'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_node) by extensions ['colcon_pkg']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_node) by extension 'colcon_pkg'
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_node) by extensions ['colcon_meta']
+[0.290s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_node) by extension 'colcon_meta'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_node) by extensions ['ros']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_node) by extension 'ros'
+[0.291s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xsens_node' with type 'ros.ament_cmake' and name 'xsens_node'
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.309s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.311s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ngocdai/lidar_ws/install
+[0.312s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 337 installed packages in /opt/ros/iron
+[0.313s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'xsens_library' build argument 'cmake_args' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'xsens_library' build argument 'cmake_target' from command line to 'None'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'xsens_library' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'xsens_library' build argument 'cmake_clean_cache' from command line to 'False'
+[0.353s] Level 5:colcon.colcon_core.verb:set package 'xsens_library' build argument 'cmake_clean_first' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'xsens_library' build argument 'cmake_force_configure' from command line to 'False'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'xsens_library' build argument 'ament_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'xsens_library' build argument 'catkin_cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'xsens_library' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.354s] DEBUG:colcon.colcon_core.verb:Building package 'xsens_library' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngocdai/lidar_ws/build/xsens_library', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngocdai/lidar_ws/install/xsens_library', 'merge_install': False, 'path': '/home/ngocdai/lidar_ws/src/xsens_library', 'symlink_install': False, 'test_result_base': None}
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'xsens_node' build argument 'cmake_args' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'xsens_node' build argument 'cmake_target' from command line to 'None'
+[0.354s] Level 5:colcon.colcon_core.verb:set package 'xsens_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'xsens_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'xsens_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'xsens_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'xsens_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'xsens_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.355s] Level 5:colcon.colcon_core.verb:set package 'xsens_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.355s] DEBUG:colcon.colcon_core.verb:Building package 'xsens_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ngocdai/lidar_ws/build/xsens_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ngocdai/lidar_ws/install/xsens_node', 'merge_install': False, 'path': '/home/ngocdai/lidar_ws/src/xsens_node', 'symlink_install': False, 'test_result_base': None}
+[0.355s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.358s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.358s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngocdai/lidar_ws/src/xsens_library' with build type 'ament_cmake'
+[0.358s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngocdai/lidar_ws/src/xsens_library'
+[0.361s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.361s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.361s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngocdai/lidar_ws/build/xsens_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_library -- -j12 -l12
+[0.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngocdai/lidar_ws/build/xsens_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_library -- -j12 -l12
+[0.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngocdai/lidar_ws/build/xsens_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/xsens_library
+[0.434s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xsens_library)
+[0.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngocdai/lidar_ws/build/xsens_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/xsens_library
+[0.438s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_library' for CMake module files
+[0.438s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_library' for CMake config files
+[0.438s] Level 1:colcon.colcon_core.shell:create_environment_hook('xsens_library', 'cmake_prefix_path')
+[0.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/hook/cmake_prefix_path.ps1'
+[0.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/hook/cmake_prefix_path.dsv'
+[0.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/hook/cmake_prefix_path.sh'
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_library/lib'
+[0.441s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_library/bin'
+[0.441s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_library/lib/pkgconfig/xsens_library.pc'
+[0.441s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_library/lib/python3.10/site-packages'
+[0.441s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_library/bin'
+[0.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.ps1'
+[0.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.dsv'
+[0.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.sh'
+[0.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.bash'
+[0.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.zsh'
+[0.444s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngocdai/lidar_ws/install/xsens_library/share/colcon-core/packages/xsens_library)
+[0.460s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xsens_library)
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_library' for CMake module files
+[0.461s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_library' for CMake config files
+[0.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('xsens_library', 'cmake_prefix_path')
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/hook/cmake_prefix_path.ps1'
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/hook/cmake_prefix_path.dsv'
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/hook/cmake_prefix_path.sh'
+[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_library/lib'
+[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_library/bin'
+[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_library/lib/pkgconfig/xsens_library.pc'
+[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_library/lib/python3.10/site-packages'
+[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_library/bin'
+[0.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.ps1'
+[0.464s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.dsv'
+[0.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.sh'
+[0.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.bash'
+[0.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.zsh'
+[0.465s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngocdai/lidar_ws/install/xsens_library/share/colcon-core/packages/xsens_library)
+[0.466s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ngocdai/lidar_ws/src/xsens_node' with build type 'ament_cmake'
+[0.466s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ngocdai/lidar_ws/src/xsens_node'
+[0.467s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.467s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[5.932s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '0': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[5.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/xsens_node
+[5.959s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xsens_node)
+[5.961s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_node' for CMake module files
+[5.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '0': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/xsens_node
+[5.962s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_node' for CMake config files
+[5.962s] Level 1:colcon.colcon_core.shell:create_environment_hook('xsens_node', 'cmake_prefix_path')
+[5.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/hook/cmake_prefix_path.ps1'
+[5.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/hook/cmake_prefix_path.dsv'
+[5.963s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/hook/cmake_prefix_path.sh'
+[5.963s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_node/lib'
+[5.963s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_node/bin'
+[5.963s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_node/lib/pkgconfig/xsens_node.pc'
+[5.964s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_node/lib/python3.10/site-packages'
+[5.964s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_node/bin'
+[5.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/package.ps1'
+[5.965s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/package.dsv'
+[5.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/package.sh'
+[5.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/package.bash'
+[5.965s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/package.zsh'
+[5.966s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngocdai/lidar_ws/install/xsens_node/share/colcon-core/packages/xsens_node)
+[5.983s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xsens_node)
+[5.984s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_node' for CMake module files
+[5.984s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_node' for CMake config files
+[5.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('xsens_node', 'cmake_prefix_path')
+[5.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/hook/cmake_prefix_path.ps1'
+[5.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/hook/cmake_prefix_path.dsv'
+[5.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/hook/cmake_prefix_path.sh'
+[5.986s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_node/lib'
+[5.986s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_node/bin'
+[5.986s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_node/lib/pkgconfig/xsens_node.pc'
+[5.986s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_node/lib/python3.10/site-packages'
+[5.986s] Level 1:colcon.colcon_core.environment:checking '/home/ngocdai/lidar_ws/install/xsens_node/bin'
+[5.987s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/package.ps1'
+[5.988s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/package.dsv'
+[5.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/package.sh'
+[5.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/package.bash'
+[5.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/package.zsh'
+[5.989s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ngocdai/lidar_ws/install/xsens_node/share/colcon-core/packages/xsens_node)
+[5.989s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.989s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.989s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.989s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.993s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.993s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.993s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.000s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.002s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngocdai/lidar_ws/install/local_setup.ps1'
+[6.003s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ngocdai/lidar_ws/install/_local_setup_util_ps1.py'
+[6.003s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngocdai/lidar_ws/install/setup.ps1'
+[6.004s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngocdai/lidar_ws/install/local_setup.sh'
+[6.005s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ngocdai/lidar_ws/install/_local_setup_util_sh.py'
+[6.005s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngocdai/lidar_ws/install/setup.sh'
+[6.006s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngocdai/lidar_ws/install/local_setup.bash'
+[6.006s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngocdai/lidar_ws/install/setup.bash'
+[6.007s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ngocdai/lidar_ws/install/local_setup.zsh'
+[6.008s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ngocdai/lidar_ws/install/setup.zsh'

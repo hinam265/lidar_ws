@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/xsens_rec.dir/src/xsens_data_receiver.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m

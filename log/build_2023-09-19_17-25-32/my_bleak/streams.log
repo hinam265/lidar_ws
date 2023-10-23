@@ -1,0 +1,27 @@
+[0.490s] Invoking command in '/home/ngocdai/lidar_ws/build/my_bleak': PYTHONPATH=/home/ngocdai/lidar_ws/build/my_bleak/prefix_override:/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ngocdai/lidar_ws/build/my_bleak/build
+[0.690s] running develop
+[0.845s] Invoked command in '/home/ngocdai/lidar_ws/build/my_bleak' returned '0': PYTHONPATH=/home/ngocdai/lidar_ws/build/my_bleak/prefix_override:/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ngocdai/lidar_ws/build/my_bleak/build
+[0.847s] Invoking command in '/home/ngocdai/lidar_ws/src/my_bleak': PYTHONPATH=/home/ngocdai/lidar_ws/build/my_bleak/prefix_override:/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_bleak build --build-base /home/ngocdai/lidar_ws/build/my_bleak/build install --record /home/ngocdai/lidar_ws/build/my_bleak/install.log --single-version-externally-managed
+[1.034s] running egg_info
+[1.035s] writing ../../build/my_bleak/my_bleak.egg-info/PKG-INFO
+[1.035s] writing dependency_links to ../../build/my_bleak/my_bleak.egg-info/dependency_links.txt
+[1.035s] writing entry points to ../../build/my_bleak/my_bleak.egg-info/entry_points.txt
+[1.035s] writing requirements to ../../build/my_bleak/my_bleak.egg-info/requires.txt
+[1.035s] writing top-level names to ../../build/my_bleak/my_bleak.egg-info/top_level.txt
+[1.036s] reading manifest file '../../build/my_bleak/my_bleak.egg-info/SOURCES.txt'
+[1.037s] writing manifest file '../../build/my_bleak/my_bleak.egg-info/SOURCES.txt'
+[1.037s] running build
+[1.037s] running build_py
+[1.037s] running install
+[1.037s] running install_lib
+[1.038s] running install_data
+[1.038s] copying launch/lidar_launch.py -> /home/ngocdai/lidar_ws/install/my_bleak/share/my_bleak/launch
+[1.039s] running install_egg_info
+[1.040s] removing '/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages/my_bleak-0.0.0-py3.10.egg-info' (and everything under it)
+[1.040s] Copying ../../build/my_bleak/my_bleak.egg-info to /home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages/my_bleak-0.0.0-py3.10.egg-info
+[1.040s] running install_scripts
+[1.054s] Installing bleak_client script to /home/ngocdai/lidar_ws/install/my_bleak/lib/my_bleak
+[1.054s] Installing bleak_node script to /home/ngocdai/lidar_ws/install/my_bleak/lib/my_bleak
+[1.054s] Installing odom_node script to /home/ngocdai/lidar_ws/install/my_bleak/lib/my_bleak
+[1.054s] writing list of installed files to '/home/ngocdai/lidar_ws/build/my_bleak/install.log'
+[1.073s] Invoked command in '/home/ngocdai/lidar_ws/src/my_bleak' returned '0': PYTHONPATH=/home/ngocdai/lidar_ws/build/my_bleak/prefix_override:/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_bleak build --build-base /home/ngocdai/lidar_ws/build/my_bleak/build install --record /home/ngocdai/lidar_ws/build/my_bleak/install.log --single-version-externally-managed

@@ -1,0 +1,66 @@
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:110:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  110 |                     cout <<
+      |                            [01;31m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:16:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   16 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In constructor ‘[01m[KXsensPublisher::XsensPublisher()[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:19:36:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KXsensPublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+   19 |         : Node("xsens_publisher"), [01;31m[Kcount_[m[K(0)
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:21:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   21 |             [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("topic", 10);
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Krmw_publisher_t[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:22:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   22 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |             [01;31m[K^~~~~~[m[K
+      |             [32m[Ktimer_t[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kvoid XsensPublisher::timer_callback()[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:77:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   77 |                 [01;31m[Kpublisher_[m[K->publish(std_msgs::msg::String(XsString("Data:" << right << setw(7) << fixed << setprecision(2) << device->bluetoothAddress())));
+      |                 [01;31m[K^~~~~~~~~~[m[K
+      |                 [32m[Krmw_publisher_t[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:77:76:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [6][m[K’ and ‘[01m[Kstd::ios_base&(std::ios_base&)[m[K’ to binary ‘[01m[Koperator<<[m[K’
+   77 |  publisher_->publish(std_msgs::msg::String(XsString([32m[K"Data:"[m[K [01;31m[K<<[m[K [34m[Kright[m[K << setw(7) << fixed << setprecision(2) << device->bluetoothAddress())));
+      |                                                     [32m[K~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~[m[K
+      |                                                     [32m[K|[m[K          [34m[K|[m[K
+      |                                                     [32m[K|[m[K          [34m[Kstd::ios_base&(std::ios_base&)[m[K
+      |                                                     [32m[Kconst char [6][m[K
+
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:95:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   95 |                             [01;31m[Kpublisher_[m[K->publish(std_msgs::msg::String(XsString("Velocity increment:" << right << setw(7) << fixed << setprecision(2) << velIncre.data()
+      |                             [01;31m[K^~~~~~~~~~[m[K
+      |                             [32m[Krmw_publisher_t[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:95:102:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char [20][m[K’ and ‘[01m[Kstd::ios_base&(std::ios_base&)[m[K’ to binary ‘[01m[Koperator<<[m[K’
+   95 | ublish(std_msgs::msg::String(XsString([32m[K"Velocity increment:"[m[K [01;31m[K<<[m[K [34m[Kright[m[K << setw(7) << fixed << setprecision(2) << velIncre.data()
+      |                                       [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K [01;31m[K^~[m[K [34m[K~~~~~[m[K
+      |                                       [32m[K|[m[K                        [34m[K|[m[K
+      |                                       [32m[Kconst char [20][m[K          [34m[Kstd::ios_base&(std::ios_base&)[m[K
+
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:110:28:[m[K [01;31m[Kerror: [m[Kexpected primary-expression at end of input
+  110 |                     cout <<
+      |                            [01;31m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:109:17:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+  109 |                 [01;35m[Kif[m[K (device->resetOrientation(XRM_DefaultAlignment))
+      |                 [01;35m[K^~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:110:28:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+  110 |                     cout <<
+      |                            [01;36m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:110:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:107:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  107 |             [01;36m[K{[m[K
+      |             [01;36m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:110:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  110 |                     cout <<
+      |                            [01;31m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:28:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   28 |         [01;36m[K{[m[K
+      |         [01;36m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K At global scope:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:110:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  110 |                     cout <<
+      |                            [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,18 @@
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In lambda function:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:37:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+   37 |                 for (auto const& device : [01;31m[KxdpcHandler[m[K.connectedDots())
+      |                                           [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:37:43:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KXsensPublisher::xdpcHandler[m[K’
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:26:21:[m[K [01;36m[Knote: [m[Kdeclared here
+   26 |         XdpcHandler [01;36m[KxdpcHandler[m[K;
+      |                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:44:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+   44 |                 [01;31m[KxdpcHandler[m[K.cleanup();
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:44:17:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KXsensPublisher::xdpcHandler[m[K’
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:26:21:[m[K [01;36m[Knote: [m[Kdeclared here
+   26 |         XdpcHandler [01;36m[KxdpcHandler[m[K;
+      |                     [01;36m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

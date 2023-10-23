@@ -1,0 +1,25 @@
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:98:44:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   98 |                 imu_msgs.header.frame_id = [01;35m[K'base_link'[m[K;
+      |                                            [01;35m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:3[m[K:
+[01m[K/opt/ros/iron/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kvoid XsensPublisher::GetData()[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:98:44:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kchar[m[K’ changes value from ‘[01m[K1818848875[m[K’ to ‘[01m[K'k'[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:[m[K In member function ‘[01m[Kvoid OdometryNode::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:13:5:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix3d[m[K’ was not declared in this scope; did you mean ‘[01m[KEigen::Matrix3d[m[K’?
+   13 |     [01;31m[KMatrix3d[m[K rotational_matrix = imu_message.orientation.toRotationMatrix();
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[KEigen::Matrix3d[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:295[m[K,
+                 from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:8[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/Matrix.h:506:1:[m[K [01;36m[Knote: [m[K‘[01m[KEigen::Matrix3d[m[K’ declared here
+  506 | [01;36m[KEIGEN_MAKE_TYPEDEFS_ALL_SIZES[m[K(double,               d)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:11:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimu_message[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   11 | void OdometryNode::imuCallback([01;35m[Kconst sensor_msgs::msg::Imu::SharedPtr imu_message[m[K)
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/odom_pub.dir/build.make:76: CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/odom_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

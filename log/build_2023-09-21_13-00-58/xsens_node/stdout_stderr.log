@@ -1,0 +1,189 @@
+[35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:109:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  109 |                     cout <<
+      |                            [01;31m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:15:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   15 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In constructor ‘[01m[KXsensPublisher::XsensPublisher()[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:18:36:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KXsensPublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+   18 |         : Node("xsens_publisher"), [01;31m[Kcount_[m[K(0)
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:20:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   20 |             [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("topic", 10);
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Krmw_publisher_t[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:21:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   21 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |             [01;31m[K^~~~~~[m[K
+      |             [32m[Ktimer_t[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kvoid XsensPublisher::timer_callback()[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:58:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::cout[m[K’?
+   58 |                 [01;31m[Kcout[m[K << "Enable logging to: " << logFileName.c_str() << endl;
+      |                 [01;31m[K^~~~[m[K
+      |                 [32m[Kstd::cout[m[K
+In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:5[m[K:
+[01m[K/usr/include/c++/11/iostream:61:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ declared here
+   61 |   extern ostream [01;36m[Kcout[m[K;          /// Linked to standard output
+      |                  [01;36m[K^~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:58:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::endl[m[K’?
+   58 |           cout << "Enable logging to: " << logFileName.c_str() << [01;31m[Kendl[m[K;
+      |                                                                   [01;31m[K^~~~[m[K
+      |                                                                   [32m[Kstd::endl[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:5[m[K:
+[01m[K/usr/include/c++/11/ostream:684:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ declared here
+  684 |     [01;36m[Kendl[m[K(basic_ostream<_CharT, _Traits>& __os)
+      |     [01;36m[K^~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:71:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcout[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::cout[m[K’?
+   71 |             [01;31m[Kcout[m[K << "\nMain loop. Logging data for 10 seconds." << endl;
+      |             [01;31m[K^~~~[m[K
+      |             [32m[Kstd::cout[m[K
+In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:5[m[K:
+[01m[K/usr/include/c++/11/iostream:61:18:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::cout[m[K’ declared here
+   61 |   extern ostream [01;36m[Kcout[m[K;          /// Linked to standard output
+      |                  [01;36m[K^~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:71:68:[m[K [01;31m[Kerror: [m[K‘[01m[Kendl[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::endl[m[K’?
+   71 |            cout << "\nMain loop. Logging data for 10 seconds." << [01;31m[Kendl[m[K;
+      |                                                                   [01;31m[K^~~~[m[K
+      |                                                                   [32m[Kstd::endl[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:5[m[K:
+[01m[K/usr/include/c++/11/ostream:684:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::endl[m[K’ declared here
+  684 |     [01;36m[Kendl[m[K(basic_ostream<_CharT, _Traits>& __os)
+      |     [01;36m[K^~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:72:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kstring[m[K’ was not declared in this scope
+   72 |             cout << [01;31m[Kstring[m[K(83, '-') << endl;
+      |                     [01;31m[K^~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:72:21:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/c++/11/iosfwd:39[m[K,
+                 from [01m[K/usr/include/c++/11/bits/shared_ptr.h:52[m[K,
+                 from [01m[K/usr/include/c++/11/memory:77[m[K,
+                 from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:3[m[K:
+[01m[K/usr/include/c++/11/bits/stringfwd.h:79:33:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’
+   79 |   typedef basic_string<char>    [01;36m[Kstring[m[K;
+      |                                 [01;36m[K^~~~~~[m[K
+In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:4[m[K:
+[01m[K/usr/include/c++/11/string:67:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::pmr::string[m[K’
+   67 |     using [01;36m[Kstring[m[K    = basic_string<char>;
+      |           [01;36m[K^~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:76:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   76 |                 [01;31m[Kpublisher_[m[K->publish(std_msgs::msg::String(XsString("Data:" << right << setw(7) << fixed << setprecision(2) << device->bluetoothAddress())));
+      |                 [01;31m[K^~~~~~~~~~[m[K
+      |                 [32m[Krmw_publisher_t[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:76:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kright[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::right[m[K’?
+   76 | blisher_->publish(std_msgs::msg::String(XsString("Data:" << [01;31m[Kright[m[K << setw(7) << fixed << setprecision(2) << device->bluetoothAddress())));
+      |                                                             [01;31m[K^~~~~[m[K
+      |                                                             [32m[Kstd::right[m[K
+In file included from [01m[K/usr/include/c++/11/ios:42[m[K,
+                 from [01m[K/usr/include/c++/11/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/ios_base.h:1037:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::right[m[K’ declared here
+ 1037 |   [01;36m[Kright[m[K(ios_base& __base)
+      |   [01;36m[K^~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:76:88:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetw[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::setw[m[K’?
+   76 | >publish(std_msgs::msg::String(XsString("Data:" << right << [01;31m[Ksetw[m[K(7) << fixed << setprecision(2) << device->bluetoothAddress())));
+      |                                                             [01;31m[K^~~~[m[K
+      |                                                             [32m[Kstd::setw[m[K
+In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:6[m[K:
+[01m[K/usr/include/c++/11/iomanip:225:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::setw[m[K’ declared here
+  225 |   [01;36m[Ksetw[m[K(int __n)
+      |   [01;36m[K^~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:76:99:[m[K [01;31m[Kerror: [m[K‘[01m[Kfixed[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::fixed[m[K’?
+   76 | d_msgs::msg::String(XsString("Data:" << right << setw(7) << [01;31m[Kfixed[m[K << setprecision(2) << device->bluetoothAddress())));
+      |                                                             [01;31m[K^~~~~[m[K
+      |                                                             [32m[Kstd::fixed[m[K
+In file included from [01m[K/usr/include/c++/11/ios:42[m[K,
+                 from [01m[K/usr/include/c++/11/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/ios_base.h:1071:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::fixed[m[K’ declared here
+ 1071 |   [01;36m[Kfixed[m[K(ios_base& __base)
+      |   [01;36m[K^~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:76:108:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetprecision[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::setprecision[m[K’?
+   76 | sg::String(XsString("Data:" << right << setw(7) << fixed << [01;31m[Ksetprecision[m[K(2) << device->bluetoothAddress())));
+      |                                                             [01;31m[K^~~~~~~~~~~~[m[K
+      |                                                             [32m[Kstd::setprecision[m[K
+In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:6[m[K:
+[01m[K/usr/include/c++/11/iomanip:195:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::setprecision[m[K’ declared here
+  195 |   [01;36m[Ksetprecision[m[K(int __n)
+      |   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:94:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   94 |                             [01;31m[Kpublisher_[m[K->publish(std_msgs::msg::String(XsString("Velocity increment:" << right << setw(7) << fixed << setprecision(2) << velIncre.data()
+      |                             [01;31m[K^~~~~~~~~~[m[K
+      |                             [32m[Krmw_publisher_t[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:94:105:[m[K [01;31m[Kerror: [m[K‘[01m[Kright[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::right[m[K’?
+   94 | ish(std_msgs::msg::String(XsString("Velocity increment:" << [01;31m[Kright[m[K << setw(7) << fixed << setprecision(2) << velIncre.data()
+      |                                                             [01;31m[K^~~~~[m[K
+      |                                                             [32m[Kstd::right[m[K
+In file included from [01m[K/usr/include/c++/11/ios:42[m[K,
+                 from [01m[K/usr/include/c++/11/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/ios_base.h:1037:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::right[m[K’ declared here
+ 1037 |   [01;36m[Kright[m[K(ios_base& __base)
+      |   [01;36m[K^~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:94:114:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetw[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::setw[m[K’?
+   94 | sgs::msg::String(XsString("Velocity increment:" << right << [01;31m[Ksetw[m[K(7) << fixed << setprecision(2) << velIncre.data()
+      |                                                             [01;31m[K^~~~[m[K
+      |                                                             [32m[Kstd::setw[m[K
+In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:6[m[K:
+[01m[K/usr/include/c++/11/iomanip:225:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::setw[m[K’ declared here
+  225 |   [01;36m[Ksetw[m[K(int __n)
+      |   [01;36m[K^~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:94:125:[m[K [01;31m[Kerror: [m[K‘[01m[Kfixed[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::fixed[m[K’?
+   94 | tring(XsString("Velocity increment:" << right << setw(7) << [01;31m[Kfixed[m[K << setprecision(2) << velIncre.data()
+      |                                                             [01;31m[K^~~~~[m[K
+      |                                                             [32m[Kstd::fixed[m[K
+In file included from [01m[K/usr/include/c++/11/ios:42[m[K,
+                 from [01m[K/usr/include/c++/11/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:5[m[K:
+[01m[K/usr/include/c++/11/bits/ios_base.h:1071:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::fixed[m[K’ declared here
+ 1071 |   [01;36m[Kfixed[m[K(ios_base& __base)
+      |   [01;36m[K^~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:94:134:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetprecision[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::setprecision[m[K’?
+   94 | tring("Velocity increment:" << right << setw(7) << fixed << [01;31m[Ksetprecision[m[K(2) << velIncre.data()
+      |                                                             [01;31m[K^~~~~~~~~~~~[m[K
+      |                                                             [32m[Kstd::setprecision[m[K
+In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:6[m[K:
+[01m[K/usr/include/c++/11/iomanip:195:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::setprecision[m[K’ declared here
+  195 |   [01;36m[Ksetprecision[m[K(int __n)
+      |   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:98:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kflush[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::flush[m[K’?
+   98 |                     cout << [01;31m[Kflush[m[K;
+      |                             [01;31m[K^~~~~[m[K
+      |                             [32m[Kstd::flush[m[K
+In file included from [01m[K/usr/include/c++/11/iostream:39[m[K,
+                 from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:5[m[K:
+[01m[K/usr/include/c++/11/ostream:706:5:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::flush[m[K’ declared here
+  706 |     [01;36m[Kflush[m[K(basic_ostream<_CharT, _Traits>& __os)
+      |     [01;36m[K^~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:109:28:[m[K [01;31m[Kerror: [m[Kexpected primary-expression at end of input
+  109 |                     cout <<
+      |                            [01;31m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:108:17:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+  108 |                 [01;35m[Kif[m[K (device->resetOrientation(XRM_DefaultAlignment))
+      |                 [01;35m[K^~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:109:28:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+  109 |                     cout <<
+      |                            [01;36m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:109:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:106:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+  106 |             [01;36m[K{[m[K
+      |             [01;36m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:109:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  109 |                     cout <<
+      |                            [01;31m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:27:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   27 |         [01;36m[K{[m[K
+      |         [01;36m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K At global scope:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:109:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  109 |                     cout <<
+      |                            [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

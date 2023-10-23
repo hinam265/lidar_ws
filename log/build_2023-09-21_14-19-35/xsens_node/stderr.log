@@ -1,0 +1,12 @@
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kvoid XsensPublisher::GetData()[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:50:57:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst XsReal*[m[K’ {aka ‘[01m[Kconst double*[m[K’} to ‘[01m[KXsReal*[m[K’ {aka ‘[01m[Kdouble*[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   50 |                             XsReal* data = [01;31m[KvelIncre.data()[m[K;
+      |                                            [01;31m[K~~~~~~~~~~~~~^~[m[K
+      |                                                         [01;31m[K|[m[K
+      |                                                         [01;31m[Kconst XsReal* {aka const double*}[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:54:47:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   54 |                             for (int i = 0; [01;35m[Ki < float_array.size()[m[K; i++) {
+      |                                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,17 @@
+/home/ngocdai/lidar_ws/install/cpp_xsens/lib/cpp_xsens/xsens_receive
+/home/ngocdai/lidar_ws/install/cpp_xsens/lib/cpp_xsens/xsens_client
+/home/ngocdai/lidar_ws/install/cpp_xsens/share/ament_index/resource_index/package_run_dependencies/cpp_xsens
+/home/ngocdai/lidar_ws/install/cpp_xsens/share/ament_index/resource_index/parent_prefix_path/cpp_xsens
+/home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/environment/ament_prefix_path.sh
+/home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/environment/ament_prefix_path.dsv
+/home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/environment/path.sh
+/home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/environment/path.dsv
+/home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/local_setup.bash
+/home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/local_setup.sh
+/home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/local_setup.zsh
+/home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/local_setup.dsv
+/home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/package.dsv
+/home/ngocdai/lidar_ws/install/cpp_xsens/share/ament_index/resource_index/packages/cpp_xsens
+/home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/cmake/cpp_xsensConfig.cmake
+/home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/cmake/cpp_xsensConfig-version.cmake
+/home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/package.xml

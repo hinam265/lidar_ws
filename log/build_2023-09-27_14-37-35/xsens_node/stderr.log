@@ -1,0 +1,13 @@
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:[m[K In member function ‘[01m[Kvoid OdometryNode::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:21:18:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ktf2::Matrix3x3[m[K’
+   21 |     cout << euler[01;31m[K->[m[Kroll << " " << euler->pitch << " " << euler->yaw << endl;
+      |                  [01;31m[K^~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:21:40:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ktf2::Matrix3x3[m[K’
+   21 |     cout << euler->roll << " " << euler[01;31m[K->[m[Kpitch << " " << euler->yaw << endl;
+      |                                        [01;31m[K^~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:21:63:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Ktf2::Matrix3x3[m[K’
+   21 |     cout << euler->roll << " " << euler->pitch << " " << euler[01;31m[K->[m[Kyaw << endl;
+      |                                                               [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/odom_pub.dir/build.make:76: CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/odom_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

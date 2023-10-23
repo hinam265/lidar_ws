@@ -1,0 +1,76 @@
+[35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o[0m
+[ 50%] Built target xsens_rec
+[ 66%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:[m[K In member function ‘[01m[Kvoid OdometryNode::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:36:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _angular_velocity_type = struct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kw[m[K’
+   36 |                                msg->orientation.w * msg->angular_velocity.[01;31m[Kw[m[K;
+      |                                                                           [01;31m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:39:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _angular_velocity_type = struct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kw[m[K’
+   39 |                                msg->orientation.z * msg->angular_velocity.[01;31m[Kw[m[K -
+      |                                                                           [01;31m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:42:75:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _angular_velocity_type = struct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kw[m[K’
+   42 |                                msg->orientation.y * msg->angular_velocity.[01;31m[Kw[m[K -
+      |                                                                           [01;31m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:45:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing _angular_velocity_type = struct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kw[m[K’
+   45 |         delta_orientation.w = msg->orientation.x * msg->angular_velocity.[01;31m[Kw[m[K -
+      |                                                                          [01;31m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:52:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klinear_velocity[m[K’; did you mean ‘[01m[Kangular_velocity[m[K’?
+   52 |         delta_position.x = msg->[01;31m[Klinear_velocity[m[K.x * msg->delta_time;
+      |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                 [32m[Kangular_velocity[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:52:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdelta_time[m[K’
+   52 |         delta_position.x = msg->linear_velocity.x * msg->[01;31m[Kdelta_time[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:53:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klinear_velocity[m[K’; did you mean ‘[01m[Kangular_velocity[m[K’?
+   53 |         delta_position.y = msg->[01;31m[Klinear_velocity[m[K.y * msg->delta_time;
+      |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                 [32m[Kangular_velocity[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:53:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdelta_time[m[K’
+   53 |         delta_position.y = msg->linear_velocity.y * msg->[01;31m[Kdelta_time[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:54:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’} has no member named ‘[01m[Klinear_velocity[m[K’; did you mean ‘[01m[Kangular_velocity[m[K’?
+   54 |         delta_position.z = msg->[01;31m[Klinear_velocity[m[K.z * msg->delta_time;
+      |                                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                 [32m[Kangular_velocity[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:54:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct sensor_msgs::msg::Imu_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdelta_time[m[K’
+   54 |         delta_position.z = msg->linear_velocity.z * msg->[01;31m[Kdelta_time[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:57:19:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator+=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Vector3[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} and ‘[01m[Kgeometry_msgs::msg::Vector3[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’})
+   57 |         [01;31m[Kposition_ += delta_position[m[K;
+      |         [01;31m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:58:56:[m[K [01;31m[Kerror: [m[K‘[01m[Knormalize[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg::Quaternion[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’}
+   58 |         orientation_ = geometry_msgs::msg::Quaternion::[01;31m[Knormalize[m[K(orientation_ * delta_orientation);
+      |                                                        [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:58:79:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Quaternion[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’} and ‘[01m[Kgeometry_msgs::msg::Quaternion[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >[m[K’})
+   58 |         orientation_ = geometry_msgs::msg::Quaternion::normalize([32m[Korientation_[m[K [01;31m[K*[m[K [34m[Kdelta_orientation[m[K);
+      |                                                                  [32m[K~~~~~~~~~~~~[m[K [01;31m[K^[m[K [34m[K~~~~~~~~~~~~~~~~~[m[K
+      |                                                                  [32m[K|[m[K              [34m[K|[m[K
+      |                                                                  [32m[K|[m[K              [34m[KQuaternion_<[...]>[m[K
+      |                                                                  [32m[KQuaternion_<[...]>[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:62:55:[m[K [01;31m[Kerror: [m[Kcannot call member function ‘[01m[Krclcpp::Time rclcpp::Clock::now() const[m[K’ without object
+   62 |         odometry_msg.header.stamp = [01;31m[Krclcpp::Clock::now()[m[K;
+      |                                     [01;31m[K~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:64:38:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::_position_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’} and ‘[01m[Kgeometry_msgs::msg::Vector3[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’})
+   64 |         odometry_msg.pose.position = [01;31m[Kposition_[m[K;
+      |                                      [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/pose_stamped__struct.hpp:22[m[K,
+                 from [01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+                 from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:2[m[K:
+[01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >& geometry_msgs::msg::Point_<std::allocator<void> >::operator=(const geometry_msgs::msg::Point_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KPoint_[m[K
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::Vector3[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} to ‘[01m[Kconst geometry_msgs::msg::Point_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >& geometry_msgs::msg::Point_<std::allocator<void> >::operator=(geometry_msgs::msg::Point_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/iron/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::Vector3[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Vector3_<std::allocator<void> >[m[K’} to ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >&&[m[K’
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kvoid XsensPublisher::GetData()[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:77:30:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K<<[m[K’ token
+   77 |                              [01;31m[K<<[m[K " | Velocity: " << imu_msgs.linear_acceleration.x << " "
+      |                              [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/xsens_pub.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/odom_pub.dir/build.make:76: CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/odom_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

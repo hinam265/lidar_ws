@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000099] (-) JobUnselected: {'identifier': 'my_bleak'}
+[0.000120] (-) JobUnselected: {'identifier': 'xsens_library'}
+[0.000137] (xsens_node) JobQueued: {'identifier': 'xsens_node', 'dependencies': OrderedDict([('xsens_library', '/home/ngocdai/lidar_ws/install/xsens_library')])}
+[0.000153] (xsens_node) JobStarted: {'identifier': 'xsens_node'}
+[0.008848] (xsens_node) JobProgress: {'identifier': 'xsens_node', 'progress': 'cmake'}
+[0.009284] (xsens_node) JobProgress: {'identifier': 'xsens_node', 'progress': 'build'}
+[0.009836] (xsens_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngocdai/lidar_ws/build/xsens_node', '--', '-j12', '-l12'], 'cwd': '/home/ngocdai/lidar_ws/build/xsens_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'ngocdai'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ngocdai/lidar_ws/install/xsens_library/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/movella/lib'), ('HOME', '/home/ngocdai'), ('OLDPWD', '/home/ngocdai'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '2049'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ngocdai/lidar_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'ngocdai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngocdai'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/iron/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/ngocdai/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NgocDai:@/tmp/.ICE-unix/1851,unix/NgocDai:/tmp/.ICE-unix/1851'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7807683e_7324_42c1_819a_6f253dc47b31'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.478AB2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.539'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/my_bleak:/home/ngocdai/lidar_ws/install/cpp_xsens:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('CMAKE_LIBRARY_PATH', '$HOME/movella/include:$CMAKE_LIBRARY_PATH'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngocdai/lidar_ws/build/xsens_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron')]), 'shell': False}
+[0.048921] (xsens_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o\x1b[0m\n'}
+[0.049143] (xsens_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/xsens_rec.dir/src/xsens_data_receiver.cpp.o\x1b[0m\n'}
+[0.099356] (-) TimerEvent: {}
+[0.199622] (-) TimerEvent: {}
+[0.299899] (-) TimerEvent: {}
+[0.400483] (-) TimerEvent: {}
+[0.500755] (-) TimerEvent: {}
+[0.601329] (-) TimerEvent: {}
+[0.701602] (-) TimerEvent: {}
+[0.801874] (-) TimerEvent: {}
+[0.902149] (-) TimerEvent: {}
+[1.002423] (-) TimerEvent: {}
+[1.102706] (-) TimerEvent: {}
+[1.202972] (-) TimerEvent: {}
+[1.303244] (-) TimerEvent: {}
+[1.403509] (-) TimerEvent: {}
+[1.503785] (-) TimerEvent: {}
+[1.604505] (-) TimerEvent: {}
+[1.704766] (-) TimerEvent: {}
+[1.805064] (-) TimerEvent: {}
+[1.905384] (-) TimerEvent: {}
+[1.970917] (xsens_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:146:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KString\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.971112] (xsens_node) StderrLine: {'line': b'  146 |         rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KString\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[1.971178] (xsens_node) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[1.971232] (xsens_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:146:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[1.971284] (xsens_node) StderrLine: {'line': b'  146 |         rclcpp::Publisher<std_msgs::msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[1.971332] (xsens_node) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[1.971381] (xsens_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:146:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[1.971429] (xsens_node) StderrLine: {'line': b'  146 |         rclcpp::Publisher<std_msgs::msg::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[1.971475] (xsens_node) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[1.971532] (xsens_node) StderrLine: {'line': b'      |                                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[1.973174] (xsens_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:146:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.973263] (xsens_node) StderrLine: {'line': b'  146 |         rclcpp::Publisher<std_msgs::msg::String>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[1.973314] (xsens_node) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.973359] (xsens_node) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[1.981268] (xsens_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KXsensPublisher::XsensPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.981377] (xsens_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:20:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.981440] (xsens_node) StderrLine: {'line': b'   20 |             \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<sensor_msgs::msg::Imu>("imu_vel", 10);\n'}
+[1.981498] (xsens_node) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.981547] (xsens_node) StderrLine: {'line': b'      |             \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[2.005808] (-) TimerEvent: {}
+[2.106095] (-) TimerEvent: {}
+[2.206642] (-) TimerEvent: {}
+[2.306912] (-) TimerEvent: {}
+[2.407180] (-) TimerEvent: {}
+[2.507443] (-) TimerEvent: {}
+[2.607706] (-) TimerEvent: {}
+[2.707976] (-) TimerEvent: {}
+[2.808234] (-) TimerEvent: {}
+[2.818601] (xsens_node) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1\n'}
+[2.818825] (xsens_node) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/xsens_pub.dir/all] Error 2\n'}
+[2.818891] (xsens_node) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.908336] (-) TimerEvent: {}
+[3.008588] (-) TimerEvent: {}
+[3.108852] (-) TimerEvent: {}
+[3.209101] (-) TimerEvent: {}
+[3.309531] (-) TimerEvent: {}
+[3.409783] (-) TimerEvent: {}
+[3.510042] (-) TimerEvent: {}
+[3.610311] (-) TimerEvent: {}
+[3.710574] (-) TimerEvent: {}
+[3.810814] (-) TimerEvent: {}
+[3.911069] (-) TimerEvent: {}
+[4.011325] (-) TimerEvent: {}
+[4.111579] (-) TimerEvent: {}
+[4.211821] (-) TimerEvent: {}
+[4.312185] (-) TimerEvent: {}
+[4.412430] (-) TimerEvent: {}
+[4.512681] (-) TimerEvent: {}
+[4.612934] (-) TimerEvent: {}
+[4.713245] (-) TimerEvent: {}
+[4.813502] (-) TimerEvent: {}
+[4.913757] (-) TimerEvent: {}
+[5.014065] (-) TimerEvent: {}
+[5.114314] (-) TimerEvent: {}
+[5.214585] (-) TimerEvent: {}
+[5.314881] (-) TimerEvent: {}
+[5.337408] (xsens_node) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable xsens_rec\x1b[0m\n'}
+[5.414967] (-) TimerEvent: {}
+[5.515235] (-) TimerEvent: {}
+[5.560661] (xsens_node) StdoutLine: {'line': b'[ 75%] Built target xsens_rec\n'}
+[5.561214] (xsens_node) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.562702] (xsens_node) CommandEnded: {'returncode': 2}
+[5.590117] (xsens_node) JobEnded: {'identifier': 'xsens_node', 'rc': 2}
+[5.600741] (-) EventReactorShutdown: {}

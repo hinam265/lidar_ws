@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target odom_pub[0m
+[ 66%] Built target xsens_pub
+[ 66%] Built target xsens_rec
+[ 83%] [32mBuilding CXX object CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o[0m
+In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:1[m[K:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:7:10:[m[K [01;31m[Kfatal error: [m[KTransform.h: No such file or directory
+    7 | #include [01;31m[K<Transform.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/odom_pub.dir/build.make:76: CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/odom_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

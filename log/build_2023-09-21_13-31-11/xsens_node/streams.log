@@ -1,0 +1,17 @@
+[0.006s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[2.046s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kvoid XsensPublisher::GetData()[m[K’:
+[2.046s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:39:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[2.046s]    39 |                 if ([01;31m[Kx[m[K   dpcHandler.packetsAvailable())
+[2.046s]       |                     [01;31m[K^[m[K
+[2.047s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:39:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KdpcHandler[m[K’
+[2.047s]    39 |                 if (x   [01;31m[KdpcHandler[m[K.packetsAvailable())
+[2.047s]       |                         [01;31m[K^~~~~~~~~~[m[K
+[2.047s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:39:20:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.047s]    39 |                 if [01;36m[K([m[Kx   dpcHandler.packetsAvailable())
+[2.047s]       |                    [01;36m[K^[m[K
+[2.877s] gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+[2.878s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+[2.878s] gmake: *** [Makefile:146: all] Error 2
+[2.879s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '2': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12

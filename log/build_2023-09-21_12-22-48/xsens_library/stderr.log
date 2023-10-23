@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:54 (file):
+  file INSTALL cannot find
+  "/home/ngocdai/lidar_ws/src/xsens_library/include/xdpchandler.h": No such
+  file or directory.
+
+[0m

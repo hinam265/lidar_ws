@@ -1,0 +1,18 @@
+[31mCMake Error at CMakeLists.txt:13 (find_package):
+  By not providing "Findxsens_library.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "xsens_library", but CMake did not find one.
+
+  Could not find a package configuration file provided by "xsens_library"
+  with any of the following names:
+
+    xsens_libraryConfig.cmake
+    xsens_library-config.cmake
+
+  Add the installation prefix of "xsens_library" to CMAKE_PREFIX_PATH or set
+  "xsens_library_DIR" to a directory containing one of the above files.  If
+  "xsens_library" provides a separate development package or SDK, be sure it
+  has been installed.
+
+[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

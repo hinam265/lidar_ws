@@ -1,0 +1,3 @@
+/home/ngocdai/lidar_ws/install/xsens_library/lib/libxdpchandler.a
+/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xdpchandlerExport.cmake
+/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xdpchandlerExport-noconfig.cmake

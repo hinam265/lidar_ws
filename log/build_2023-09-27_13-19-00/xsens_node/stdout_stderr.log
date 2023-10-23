@@ -1,0 +1,52 @@
+[35m[1mConsolidate compiler generated dependencies of target odom_pub[0m
+[ 66%] Built target xsens_rec
+[ 66%] Built target xsens_pub
+[ 83%] [32mBuilding CXX object CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o[0m
+In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:3[m[K:
+[01m[K/opt/ros/iron/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:1[m[K:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:[m[K In constructor ‘[01m[KOdometryNode::OdometryNode()[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_subscriber_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_subscribers[m[K’?
+   17 |         [01;31m[Kimu_subscriber_[m[K = create_subscription<sensor_msgs::msg::Imu>(
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |         [32m[Kcount_subscribers[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kodometry_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+   22 |         [01;31m[Kodometry_publisher_[m[K = create_publisher<geometry_msgs::msg::PoseStamped>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Kcount_publishers[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:22:68:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+   22 |         odometry_publisher_ = create_publisher<geometry_msgs::msg::[01;31m[KPoseStamped[m[K>(
+      |                                                                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:22:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KOdometryNode::create_publisher<<expression error> >(const char [10], int)[m[K’
+   22 |         odometry_publisher_ = [01;31m[Kcreate_publisher<geometry_msgs::msg::PoseStamped>([m[K
+      |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   23 | [01;31m[K            "/odometry", 10[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~[m[K                                                     
+   24 | [01;31m[K        )[m[K;
+      |         [01;31m[K~[m[K                                                                       
+In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+                 from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:4[m[K,
+                 from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:1[m[K:
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:196:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  196 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:196:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:1[m[K:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:22:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |         odometry_publisher_ = [01;31m[Kcreate_publisher<geometry_msgs::msg::PoseStamped>([m[K
+      |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   23 | [01;31m[K            "/odometry", 10[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~[m[K                                                     
+   24 | [01;31m[K        )[m[K;
+      |         [01;31m[K~[m[K                                                                       
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:[m[K In member function ‘[01m[Kvoid OdometryNode::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:9:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    9 | void OdometryNode::imuCallback([01;35m[Kconst sensor_msgs::msg::Imu::SharedPtr msg[m[K)
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+gmake[2]: *** [CMakeFiles/odom_pub.dir/build.make:76: CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/odom_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

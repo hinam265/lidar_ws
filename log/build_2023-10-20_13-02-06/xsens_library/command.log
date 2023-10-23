@@ -1,0 +1,6 @@
+Invoking command in '/home/ngocdai/lidar_ws/build/xsens_library': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/ngocdai/lidar_ws/src/xsens_library -DCMAKE_INSTALL_PREFIX=/home/ngocdai/lidar_ws/install/xsens_library
+Invoked command in '/home/ngocdai/lidar_ws/build/xsens_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /home/ngocdai/lidar_ws/src/xsens_library -DCMAKE_INSTALL_PREFIX=/home/ngocdai/lidar_ws/install/xsens_library
+Invoking command in '/home/ngocdai/lidar_ws/build/xsens_library': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_library -- -j12 -l12
+Invoked command in '/home/ngocdai/lidar_ws/build/xsens_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_library -- -j12 -l12
+Invoking command in '/home/ngocdai/lidar_ws/build/xsens_library': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/xsens_library
+Invoked command in '/home/ngocdai/lidar_ws/build/xsens_library' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/xsens_library

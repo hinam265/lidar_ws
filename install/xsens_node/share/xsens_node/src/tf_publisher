@@ -1,0 +1,11 @@
+import tf2_ros
+
+tf_listener = tf2_ros.TransformListener()
+
+try:
+    transform = tf_listener.lookupTransform("odom", "base_link", tf2_ros.Time())
+except tf2_ros.LookupException:
+    print("TF transform from odom to base_link not found")
+else:
+    print("TF transform from odom to base_link:")
+    print(transform)

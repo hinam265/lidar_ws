@@ -1,0 +1,6 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/xdpchandler.dir/src/xdpchandler.cpp.o[0m
+[100%] [32m[1mLinking CXX static library libxdpchandler.a[0m
+[100%] Built target xdpchandler
+-- Install configuration: ""
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/library_path.sh
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/library_path.dsv

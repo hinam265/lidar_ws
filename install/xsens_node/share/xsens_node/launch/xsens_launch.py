@@ -1,0 +1,1 @@
+/home/ngocdai/lidar_ws/src/xsens_node/launch/xsens_launch.py

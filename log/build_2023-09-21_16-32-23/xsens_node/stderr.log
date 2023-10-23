@@ -1,0 +1,16 @@
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kvoid XsensPublisher::GetData()[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:46:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_msgs[m[K’ was not declared in this scope
+   46 |                         [01;31m[Kimu_msgs[m[K = Imu()
+      |                         [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:46:36:[m[K [01;31m[Kerror: [m[K‘[01m[KImu[m[K’ was not declared in this scope; did you mean ‘[01m[Ksensor_msgs::msg::Imu[m[K’?
+   46 |                         imu_msgs = [01;31m[KImu[m[K()
+      |                                    [01;31m[K^~~[m[K
+      |                                    [32m[Ksensor_msgs::msg::Imu[m[K
+In file included from [01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+                 from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:12[m[K:
+[01m[K/opt/ros/iron/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:217:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::Imu[m[K’ declared here
+  217 | using [01;36m[KImu[m[K =
+      |       [01;36m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

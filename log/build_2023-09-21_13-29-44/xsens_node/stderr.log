@@ -1,0 +1,17 @@
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kvoid XsensPublisher::GetData()[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:30:39:[m[K [01;31m[Kerror: [m[K‘[01m[KxdpcHandler[m[K’ was not declared in this scope; did you mean ‘[01m[KXdpcHandler[m[K’?
+   30 |             for (auto const& device : [01;31m[KxdpcHandler[m[K.connectedDots())
+      |                                       [01;31m[K^~~~~~~~~~~[m[K
+      |                                       [32m[KXdpcHandler[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:37:21:[m[K [01;31m[Kerror: [m[K‘[01m[KxdpcHandler[m[K’ was not declared in this scope; did you mean ‘[01m[KXdpcHandler[m[K’?
+   37 |                 if ([01;31m[KxdpcHandler[m[K.packetsAvailable())
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+      |                     [32m[KXdpcHandler[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kvoid XsensPublisher::timer_callback()[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:121:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope; did you mean ‘[01m[KXsMessage[m[K’?
+  121 |             publisher_->publish([01;31m[Kmessage[m[K);
+      |                                 [01;31m[K^~~~~~~[m[K
+      |                                 [32m[KXsMessage[m[K
+gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

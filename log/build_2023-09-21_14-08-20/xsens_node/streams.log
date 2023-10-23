@@ -1,0 +1,23 @@
+[0.006s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[1.976s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kvoid XsensPublisher::GetData()[m[K’:
+[1.976s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:50:57:[m[K [01;31m[Kerror: [m[Kinvalid conversion from ‘[01m[Kconst XsReal*[m[K’ {aka ‘[01m[Kconst double*[m[K’} to ‘[01m[KXsReal*[m[K’ {aka ‘[01m[Kdouble*[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[1.976s]    50 |                             XsReal* data = [01;31m[KvelIncre.data()[m[K;
+[1.976s]       |                                            [01;31m[K~~~~~~~~~~~~~^~[m[K
+[1.976s]       |                                                         [01;31m[K|[m[K
+[1.976s]       |                                                         [01;31m[Kconst XsReal* {aka const double*}[m[K
+[1.977s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:51:81:[m[K [01;35m[Kwarning: [m[Kdivision ‘[01m[Ksizeof (XsReal* {aka double*}) / sizeof (XsReal {aka double})[m[K’ does not compute the number of array elements [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsizeof-pointer-div-Wsizeof-pointer-div]8;;[m[K]
+[1.977s]    51 |         vector<float> float_array(data, data + [01;35m[Ksizeof(data) / sizeof(XsReal)[m[K);
+[1.977s]       |                                                [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~[m[K
+[1.977s] 
+[1.977s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:50:37:[m[K [01;36m[Knote: [m[Kfirst ‘[01m[Ksizeof[m[K’ operand was declared here
+[1.977s]    50 |                             XsReal* [01;36m[Kdata[m[K = velIncre.data();
+[1.977s]       |                                     [01;36m[K^~~~[m[K
+[1.977s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:52:47:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.977s]    52 |                             for (int i = 0; [01;35m[Ki < float_array.size()[m[K; i++) {
+[1.977s]       |                                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[2.811s] gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+[2.811s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+[2.811s] gmake: *** [Makefile:146: all] Error 2
+[2.813s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '2': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12

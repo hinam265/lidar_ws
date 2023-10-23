@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kvoid XsensPublisher::timer_callback()[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:143:66:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevice[m[K’ was not declared in this scope
+  143 |            message.data = "Device connected: " +  to_string([01;31m[Kdevice[m[K->bluetoothAddress());
+      |                                                             [01;31m[K^~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

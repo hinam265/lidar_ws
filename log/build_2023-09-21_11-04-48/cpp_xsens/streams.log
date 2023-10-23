@@ -1,0 +1,20 @@
+[0.008s] Invoking command in '/home/ngocdai/lidar_ws/build/cpp_xsens': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/cpp_xsens -- -j12 -l12
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target xsens_receive[0m
+[0.043s] [ 50%] Built target xsens_client
+[0.046s] [ 75%] [32mBuilding CXX object CMakeFiles/xsens_receive.dir/src/xsens_receive_data.cpp.o[0m
+[1.790s] [01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xsens_receive_data.cpp:30:28:[m[K [01;31m[Kerror: [m[K‘[01m[KSharePtr[m[K’ in ‘[01m[Kclass rclcpp::TimerBase[m[K’ does not name a type
+[1.790s]    30 |         rclcpp::TimerBase::[01;31m[KSharePtr[m[K timer_;
+[1.790s]       |                            [01;31m[K^~~~~~~~[m[K
+[1.797s] [01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xsens_receive_data.cpp:[m[K In constructor ‘[01m[KXsensPublisher::XsensPublisher()[m[K’:
+[1.797s] [01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xsens_receive_data.cpp:17:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+[1.797s]    17 |             [01;31m[Kpublisher[m[K = this->create_publisher<std_msgs::msg::String>("topic", 10);
+[1.797s]       |             [01;31m[K^~~~~~~~~[m[K
+[1.797s]       |             [32m[Kpublisher_[m[K
+[1.802s] [01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xsens_receive_data.cpp:18:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.802s]    18 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[1.802s]       |             [01;31m[K^~~~~~[m[K
+[1.802s]       |             [32m[Ktimer_t[m[K
+[2.631s] gmake[2]: *** [CMakeFiles/xsens_receive.dir/build.make:76: CMakeFiles/xsens_receive.dir/src/xsens_receive_data.cpp.o] Error 1
+[2.632s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/xsens_receive.dir/all] Error 2
+[2.632s] gmake: *** [Makefile:146: all] Error 2
+[2.634s] Invoked command in '/home/ngocdai/lidar_ws/build/cpp_xsens' returned '2': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/cpp_xsens -- -j12 -l12

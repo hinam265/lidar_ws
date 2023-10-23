@@ -1,0 +1,302 @@
+[0.000000] (-) TimerEvent: {}
+[0.000553] (xsens_library) JobQueued: {'identifier': 'xsens_library', 'dependencies': OrderedDict()}
+[0.000595] (xsens_node) JobQueued: {'identifier': 'xsens_node', 'dependencies': OrderedDict([('xsens_library', '/home/ngocdai/lidar_ws/install/xsens_library')])}
+[0.000658] (xsens_library) JobStarted: {'identifier': 'xsens_library'}
+[0.062524] (xsens_library) JobProgress: {'identifier': 'xsens_library', 'progress': 'cmake'}
+[0.063034] (xsens_library) Command: {'cmd': ['/usr/bin/cmake', '/home/ngocdai/lidar_ws/src/xsens_library', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ngocdai/lidar_ws/install/xsens_library'], 'cwd': '/home/ngocdai/lidar_ws/build/xsens_library', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'ngocdai'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ngocdai/lidar_ws/install/xsens_library/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/movella/lib'), ('HOME', '/home/ngocdai'), ('OLDPWD', '/home/ngocdai'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ngocdai/lidar_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'ngocdai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngocdai'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/iron/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/ngocdai/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NgocDai:@/tmp/.ICE-unix/1928,unix/NgocDai:/tmp/.ICE-unix/1928'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f616ab32_518c_4314_a28e_3457d284a3f2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DCM4C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.461'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/my_bleak:/home/ngocdai/lidar_ws/install/cpp_xsens:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('CMAKE_LIBRARY_PATH', '$HOME/movella/include:$CMAKE_LIBRARY_PATH'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngocdai/lidar_ws/build/xsens_library'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages:/home/ngocdai/.local/lib/python3.10/site-packages/movelladot_pc_sdk'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron')]), 'shell': False}
+[0.099785] (-) TimerEvent: {}
+[0.137797] (xsens_library) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.186074] (xsens_library) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.193547] (xsens_library) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199843] (-) TimerEvent: {}
+[0.257990] (xsens_library) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.267330] (xsens_library) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.267725] (xsens_library) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.268341] (xsens_library) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.271781] (xsens_library) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299971] (-) TimerEvent: {}
+[0.351252] (xsens_library) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.356815] (xsens_library) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.357042] (xsens_library) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.357388] (xsens_library) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.364479] (xsens_library) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.400069] (-) TimerEvent: {}
+[0.500472] (-) TimerEvent: {}
+[0.509350] (xsens_library) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.559340] (xsens_library) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.587108] (xsens_library) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[0.600567] (-) TimerEvent: {}
+[0.657049] (xsens_library) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.657248] (xsens_library) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ngocdai/lidar_ws/src/xsens_library/include\n'}
+[0.657324] (xsens_library) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.657839] (xsens_library) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.658921] (xsens_library) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.658999] (xsens_library) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.659393] (xsens_library) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.662207] (xsens_library) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.667078] (xsens_library) StdoutLine: {'line': b'-- Generating done\n'}
+[0.667921] (xsens_library) StdoutLine: {'line': b'-- Build files have been written to: /home/ngocdai/lidar_ws/build/xsens_library\n'}
+[0.672227] (xsens_library) CommandEnded: {'returncode': 0}
+[0.672702] (xsens_library) JobProgress: {'identifier': 'xsens_library', 'progress': 'build'}
+[0.673414] (xsens_library) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngocdai/lidar_ws/build/xsens_library', '--', '-j12', '-l12'], 'cwd': '/home/ngocdai/lidar_ws/build/xsens_library', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'ngocdai'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ngocdai/lidar_ws/install/xsens_library/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/movella/lib'), ('HOME', '/home/ngocdai'), ('OLDPWD', '/home/ngocdai'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ngocdai/lidar_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'ngocdai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngocdai'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/iron/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/ngocdai/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NgocDai:@/tmp/.ICE-unix/1928,unix/NgocDai:/tmp/.ICE-unix/1928'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f616ab32_518c_4314_a28e_3457d284a3f2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DCM4C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.461'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/my_bleak:/home/ngocdai/lidar_ws/install/cpp_xsens:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('CMAKE_LIBRARY_PATH', '$HOME/movella/include:$CMAKE_LIBRARY_PATH'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngocdai/lidar_ws/build/xsens_library'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages:/home/ngocdai/.local/lib/python3.10/site-packages/movelladot_pc_sdk'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron')]), 'shell': False}
+[0.700665] (-) TimerEvent: {}
+[0.718939] (xsens_library) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/xdpchandler.dir/src/xdpchandler.cpp.o\x1b[0m\n'}
+[0.800777] (-) TimerEvent: {}
+[0.901063] (-) TimerEvent: {}
+[1.001326] (-) TimerEvent: {}
+[1.083784] (xsens_library) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/movella/include/xstypes/xssdidata.h:35\x1b[m\x1b[K,\n'}
+[1.084072] (xsens_library) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/movella/include/xstypes/xsdatapacket.h:42\x1b[m\x1b[K,\n'}
+[1.084194] (xsens_library) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/movella/include/xstypes/xsdatapacketptrarray.h:34\x1b[m\x1b[K,\n'}
+[1.084303] (xsens_library) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/movella/include/movelladot_pc_sdk/xsdotcallbackplainc.h:22\x1b[m\x1b[K,\n'}
+[1.084404] (xsens_library) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/movella/include/movelladot_pc_sdk/xsdotcallback.h:19\x1b[m\x1b[K,\n'}
+[1.084502] (xsens_library) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/movella/include/movelladot_pc_sdk.h:18\x1b[m\x1b[K,\n'}
+[1.084600] (xsens_library) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ngocdai/lidar_ws/src/xsens_library/include/xsens_library/xdpchandler.h:4\x1b[m\x1b[K,\n'}
+[1.084741] (xsens_library) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ngocdai/lidar_ws/src/xsens_library/src/xdpchandler.cpp:1\x1b[m\x1b[K:\n'}
+[1.084836] (xsens_library) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/movella/include/xstypes/xsquaternion.h:73:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.084919] (xsens_library) StderrLine: {'line': b'   73 |                 \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[1.085016] (xsens_library) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.087282] (xsens_library) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/local/movella/include/xstypes/xsdatapacket.h:46\x1b[m\x1b[K,\n'}
+[1.087406] (xsens_library) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/movella/include/xstypes/xsdatapacketptrarray.h:34\x1b[m\x1b[K,\n'}
+[1.087517] (xsens_library) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/movella/include/movelladot_pc_sdk/xsdotcallbackplainc.h:22\x1b[m\x1b[K,\n'}
+[1.087623] (xsens_library) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/movella/include/movelladot_pc_sdk/xsdotcallback.h:19\x1b[m\x1b[K,\n'}
+[1.087718] (xsens_library) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/local/movella/include/movelladot_pc_sdk.h:18\x1b[m\x1b[K,\n'}
+[1.087810] (xsens_library) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ngocdai/lidar_ws/src/xsens_library/include/xsens_library/xdpchandler.h:4\x1b[m\x1b[K,\n'}
+[1.087901] (xsens_library) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ngocdai/lidar_ws/src/xsens_library/src/xdpchandler.cpp:1\x1b[m\x1b[K:\n'}
+[1.088012] (xsens_library) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/movella/include/xstypes/xseuler.h:177:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.088108] (xsens_library) StderrLine: {'line': b'  177 |                 \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[1.088195] (xsens_library) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.088279] (xsens_library) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/local/movella/include/xstypes/xseuler.h:183:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ prohibits anonymous structs [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.088383] (xsens_library) StderrLine: {'line': b'  183 |                 \x1b[01;35m\x1b[K{\x1b[m\x1b[K\n'}
+[1.088477] (xsens_library) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.101425] (-) TimerEvent: {}
+[1.201708] (-) TimerEvent: {}
+[1.302014] (-) TimerEvent: {}
+[1.402321] (-) TimerEvent: {}
+[1.502618] (-) TimerEvent: {}
+[1.602912] (-) TimerEvent: {}
+[1.656455] (xsens_library) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX static library libxdpchandler.a\x1b[0m\n'}
+[1.696938] (xsens_library) StdoutLine: {'line': b'[100%] Built target xdpchandler\n'}
+[1.702995] (-) TimerEvent: {}
+[1.708339] (xsens_library) CommandEnded: {'returncode': 0}
+[1.732723] (xsens_library) JobProgress: {'identifier': 'xsens_library', 'progress': 'install'}
+[1.741180] (xsens_library) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ngocdai/lidar_ws/build/xsens_library'], 'cwd': '/home/ngocdai/lidar_ws/build/xsens_library', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'ngocdai'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ngocdai/lidar_ws/install/xsens_library/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/movella/lib'), ('HOME', '/home/ngocdai'), ('OLDPWD', '/home/ngocdai'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ngocdai/lidar_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'ngocdai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngocdai'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/iron/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/ngocdai/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NgocDai:@/tmp/.ICE-unix/1928,unix/NgocDai:/tmp/.ICE-unix/1928'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f616ab32_518c_4314_a28e_3457d284a3f2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DCM4C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.461'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/my_bleak:/home/ngocdai/lidar_ws/install/cpp_xsens:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('CMAKE_LIBRARY_PATH', '$HOME/movella/include:$CMAKE_LIBRARY_PATH'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngocdai/lidar_ws/build/xsens_library'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages:/home/ngocdai/.local/lib/python3.10/site-packages/movelladot_pc_sdk'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron')]), 'shell': False}
+[1.749383] (xsens_library) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.749715] (xsens_library) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.749976] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/library_path.sh\n'}
+[1.758950] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/library_path.dsv\n'}
+[1.767655] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/include/xsens_library/conio.h\n'}
+[1.776113] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/include/xsens_library/user_settings.h\n'}
+[1.784479] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/include/xsens_library/xdpchandler.h\n'}
+[1.792628] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/ament_index/resource_index/package_run_dependencies/xsens_library\n'}
+[1.801082] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/ament_index/resource_index/parent_prefix_path/xsens_library\n'}
+[1.803056] (-) TimerEvent: {}
+[1.809096] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/ament_prefix_path.sh\n'}
+[1.817829] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/ament_prefix_path.dsv\n'}
+[1.826129] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/path.sh\n'}
+[1.835989] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/path.dsv\n'}
+[1.844334] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/local_setup.bash\n'}
+[1.853255] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/local_setup.sh\n'}
+[1.861226] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/local_setup.zsh\n'}
+[1.869583] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/local_setup.dsv\n'}
+[1.877550] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.dsv\n'}
+[1.885574] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/ament_index/resource_index/packages/xsens_library\n'}
+[1.893297] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.902776] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xsens_libraryConfig.cmake\n'}
+[1.903121] (-) TimerEvent: {}
+[1.911166] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xsens_libraryConfig-version.cmake\n'}
+[1.919420] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.xml\n'}
+[1.927569] (xsens_library) StdoutLine: {'line': b'-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/lib/libxdpchandler.a\n'}
+[1.928981] (xsens_library) StdoutLine: {'line': b'-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xdpchandlerExport.cmake\n'}
+[1.929142] (xsens_library) StdoutLine: {'line': b'-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xdpchandlerExport-noconfig.cmake\n'}
+[1.931420] (xsens_library) CommandEnded: {'returncode': 0}
+[2.003217] (-) TimerEvent: {}
+[2.077908] (xsens_library) JobEnded: {'identifier': 'xsens_library', 'rc': 0}
+[2.078679] (xsens_node) JobStarted: {'identifier': 'xsens_node'}
+[2.103334] (-) TimerEvent: {}
+[2.141839] (xsens_node) JobProgress: {'identifier': 'xsens_node', 'progress': 'cmake'}
+[2.142058] (xsens_node) Command: {'cmd': ['/usr/bin/cmake', '/home/ngocdai/lidar_ws/src/xsens_node', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ngocdai/lidar_ws/install/xsens_node'], 'cwd': '/home/ngocdai/lidar_ws/build/xsens_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'ngocdai'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ngocdai/lidar_ws/install/xsens_library/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/movella/lib'), ('HOME', '/home/ngocdai'), ('OLDPWD', '/home/ngocdai'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ngocdai/lidar_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'ngocdai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngocdai'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/iron/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/ngocdai/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NgocDai:@/tmp/.ICE-unix/1928,unix/NgocDai:/tmp/.ICE-unix/1928'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f616ab32_518c_4314_a28e_3457d284a3f2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DCM4C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.461'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/my_bleak:/home/ngocdai/lidar_ws/install/cpp_xsens:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('CMAKE_LIBRARY_PATH', '$HOME/movella/include:$CMAKE_LIBRARY_PATH'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngocdai/lidar_ws/build/xsens_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages:/home/ngocdai/.local/lib/python3.10/site-packages/movelladot_pc_sdk'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron')]), 'shell': False}
+[2.191523] (xsens_node) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.203444] (-) TimerEvent: {}
+[2.239568] (xsens_node) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.246108] (xsens_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.303538] (-) TimerEvent: {}
+[2.309906] (xsens_node) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.315493] (xsens_node) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.315684] (xsens_node) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.315983] (xsens_node) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.318447] (xsens_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.392197] (xsens_node) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.397839] (xsens_node) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.398051] (xsens_node) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.398419] (xsens_node) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.400540] (xsens_node) StdoutLine: {'line': b'-- Found ament_cmake_python: 2.0.3 (/opt/ros/iron/share/ament_cmake_python/cmake)\n'}
+[2.402708] (xsens_node) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[2.403597] (-) TimerEvent: {}
+[2.503788] (-) TimerEvent: {}
+[2.548217] (xsens_node) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.601430] (xsens_node) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.603847] (-) TimerEvent: {}
+[2.633899] (xsens_node) StdoutLine: {'line': b'-- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[2.676034] (xsens_node) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[2.686868] (xsens_node) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[2.702543] (xsens_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.703911] (-) TimerEvent: {}
+[2.721063] (xsens_node) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.804033] (-) TimerEvent: {}
+[2.860580] (xsens_node) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[2.862975] (xsens_node) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.904394] (-) TimerEvent: {}
+[2.976814] (xsens_node) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.004503] (-) TimerEvent: {}
+[3.004774] (xsens_node) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[3.051020] (xsens_node) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.104599] (-) TimerEvent: {}
+[3.196399] (xsens_node) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[3.204683] (-) TimerEvent: {}
+[3.220914] (xsens_node) StdoutLine: {'line': b'-- Found xsens_library: 0.0.0 (/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake)\n'}
+[3.222826] (xsens_node) StdoutLine: {'line': b'-- Found nav_msgs: 5.0.0 (/opt/ros/iron/share/nav_msgs/cmake)\n'}
+[3.304795] (-) TimerEvent: {}
+[3.360201] (xsens_node) StdoutLine: {'line': b'-- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)\n'}
+[3.404903] (-) TimerEvent: {}
+[3.441138] (xsens_node) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.1.2 (/opt/ros/iron/share/yaml_cpp_vendor/cmake)\n'}
+[3.445078] (xsens_node) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.31.5 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)\n'}
+[3.460469] (xsens_node) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)\n'}
+[3.461432] (xsens_node) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.461541] (xsens_node) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.505008] (-) TimerEvent: {}
+[3.605270] (-) TimerEvent: {}
+[3.705523] (-) TimerEvent: {}
+[3.805786] (-) TimerEvent: {}
+[3.858328] (xsens_node) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)\n'}
+[3.905886] (-) TimerEvent: {}
+[3.935370] (xsens_node) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[3.953449] (xsens_node) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.958556] (xsens_node) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.958961] (xsens_node) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.959078] (xsens_node) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.959157] (xsens_node) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.976833] (xsens_node) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.984140] (xsens_node) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.984345] (xsens_node) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node\n'}
+[3.984434] (xsens_node) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.984848] (xsens_node) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.984935] (xsens_node) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[3.985514] (xsens_node) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.986116] (xsens_node) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.987396] (xsens_node) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.987482] (xsens_node) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.987892] (xsens_node) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.989278] (xsens_node) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.004458] (xsens_node) StdoutLine: {'line': b'-- Generating done\n'}
+[4.005950] (-) TimerEvent: {}
+[4.006114] (xsens_node) StdoutLine: {'line': b'-- Build files have been written to: /home/ngocdai/lidar_ws/build/xsens_node\n'}
+[4.015727] (xsens_node) CommandEnded: {'returncode': 0}
+[4.016332] (xsens_node) JobProgress: {'identifier': 'xsens_node', 'progress': 'build'}
+[4.017003] (xsens_node) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngocdai/lidar_ws/build/xsens_node', '--', '-j12', '-l12'], 'cwd': '/home/ngocdai/lidar_ws/build/xsens_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'ngocdai'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ngocdai/lidar_ws/install/xsens_library/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/movella/lib'), ('HOME', '/home/ngocdai'), ('OLDPWD', '/home/ngocdai'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ngocdai/lidar_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'ngocdai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngocdai'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/iron/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/ngocdai/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NgocDai:@/tmp/.ICE-unix/1928,unix/NgocDai:/tmp/.ICE-unix/1928'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f616ab32_518c_4314_a28e_3457d284a3f2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DCM4C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.461'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/my_bleak:/home/ngocdai/lidar_ws/install/cpp_xsens:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('CMAKE_LIBRARY_PATH', '$HOME/movella/include:$CMAKE_LIBRARY_PATH'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngocdai/lidar_ws/build/xsens_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages:/home/ngocdai/.local/lib/python3.10/site-packages/movelladot_pc_sdk'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron')]), 'shell': False}
+[4.067100] (xsens_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o\x1b[0m\n'}
+[4.067274] (xsens_node) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/xsens_rec.dir/src/xsens_data_receiver.cpp.o\x1b[0m\n'}
+[4.106055] (-) TimerEvent: {}
+[4.206320] (-) TimerEvent: {}
+[4.306614] (-) TimerEvent: {}
+[4.337047] (xsens_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:116:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[4.337318] (xsens_node) StderrLine: {'line': b"  116 |                 imu_msgs.header.frame_id = \x1b[01;35m\x1b[K'base_link'\x1b[m\x1b[K;\n"}
+[4.337388] (xsens_node) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.406710] (-) TimerEvent: {}
+[4.507378] (-) TimerEvent: {}
+[4.607646] (-) TimerEvent: {}
+[4.707915] (-) TimerEvent: {}
+[4.808202] (-) TimerEvent: {}
+[4.908479] (-) TimerEvent: {}
+[5.008741] (-) TimerEvent: {}
+[5.109012] (-) TimerEvent: {}
+[5.209285] (-) TimerEvent: {}
+[5.309578] (-) TimerEvent: {}
+[5.409861] (-) TimerEvent: {}
+[5.510130] (-) TimerEvent: {}
+[5.610394] (-) TimerEvent: {}
+[5.710640] (-) TimerEvent: {}
+[5.810892] (-) TimerEvent: {}
+[5.911170] (-) TimerEvent: {}
+[6.011445] (-) TimerEvent: {}
+[6.112107] (-) TimerEvent: {}
+[6.212389] (-) TimerEvent: {}
+[6.306895] (xsens_node) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid XsensPublisher::GetData()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.307068] (xsens_node) StderrLine: {'line': b"\x1b[01m\x1b[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:116:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Koverflow in conversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 changes value from \xe2\x80\x98\x1b[01m\x1b[K1818848875\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[K'k'\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow\x07-Woverflow\x1b]8;;\x07\x1b[m\x1b[K]\n"}
+[6.312484] (-) TimerEvent: {}
+[6.412771] (-) TimerEvent: {}
+[6.513232] (-) TimerEvent: {}
+[6.613605] (-) TimerEvent: {}
+[6.713936] (-) TimerEvent: {}
+[6.814329] (-) TimerEvent: {}
+[6.914619] (-) TimerEvent: {}
+[7.014882] (-) TimerEvent: {}
+[7.115144] (-) TimerEvent: {}
+[7.215426] (-) TimerEvent: {}
+[7.315700] (-) TimerEvent: {}
+[7.415973] (-) TimerEvent: {}
+[7.516234] (-) TimerEvent: {}
+[7.616509] (-) TimerEvent: {}
+[7.716841] (-) TimerEvent: {}
+[7.817171] (-) TimerEvent: {}
+[7.917514] (-) TimerEvent: {}
+[7.948153] (xsens_node) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable xsens_pub\x1b[0m\n'}
+[8.017609] (-) TimerEvent: {}
+[8.117878] (-) TimerEvent: {}
+[8.218143] (-) TimerEvent: {}
+[8.236522] (xsens_node) StdoutLine: {'line': b'[ 75%] Built target xsens_pub\n'}
+[8.318249] (-) TimerEvent: {}
+[8.418503] (-) TimerEvent: {}
+[8.518763] (-) TimerEvent: {}
+[8.619017] (-) TimerEvent: {}
+[8.719283] (-) TimerEvent: {}
+[8.819556] (-) TimerEvent: {}
+[8.919824] (-) TimerEvent: {}
+[9.020104] (-) TimerEvent: {}
+[9.120389] (-) TimerEvent: {}
+[9.220656] (-) TimerEvent: {}
+[9.320934] (-) TimerEvent: {}
+[9.421201] (-) TimerEvent: {}
+[9.521469] (-) TimerEvent: {}
+[9.621734] (-) TimerEvent: {}
+[9.722000] (-) TimerEvent: {}
+[9.822272] (-) TimerEvent: {}
+[9.922546] (-) TimerEvent: {}
+[10.022821] (-) TimerEvent: {}
+[10.036936] (xsens_node) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable xsens_rec\x1b[0m\n'}
+[10.122935] (-) TimerEvent: {}
+[10.223226] (-) TimerEvent: {}
+[10.322325] (xsens_node) StdoutLine: {'line': b'[100%] Built target xsens_rec\n'}
+[10.323296] (-) TimerEvent: {}
+[10.333339] (xsens_node) CommandEnded: {'returncode': 0}
+[10.363603] (xsens_node) JobProgress: {'identifier': 'xsens_node', 'progress': 'install'}
+[10.364074] (xsens_node) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ngocdai/lidar_ws/build/xsens_node'], 'cwd': '/home/ngocdai/lidar_ws/build/xsens_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'ngocdai'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ngocdai/lidar_ws/install/xsens_library/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/movella/lib'), ('HOME', '/home/ngocdai'), ('OLDPWD', '/home/ngocdai'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ngocdai/lidar_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'ngocdai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngocdai'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/iron/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/ngocdai/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NgocDai:@/tmp/.ICE-unix/1928,unix/NgocDai:/tmp/.ICE-unix/1928'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f616ab32_518c_4314_a28e_3457d284a3f2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DCM4C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.461'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/my_bleak:/home/ngocdai/lidar_ws/install/cpp_xsens:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('CMAKE_LIBRARY_PATH', '$HOME/movella/include:$CMAKE_LIBRARY_PATH'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngocdai/lidar_ws/build/xsens_node'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages:/home/ngocdai/.local/lib/python3.10/site-packages/movelladot_pc_sdk'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron')]), 'shell': False}
+[10.371715] (xsens_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.372142] (xsens_node) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.372455] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/lib/xsens_node//xsens_pub\n'}
+[10.380800] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/lib/xsens_node//xsens_rec\n'}
+[10.389584] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/launch/xsens_launch.py\n'}
+[10.398192] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/src/xsens_data_publisher.cpp\n'}
+[10.406742] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/src/xsens_data_receiver.cpp\n'}
+[10.415861] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/config/ekf.yaml\n'}
+[10.423767] (-) TimerEvent: {}
+[10.424583] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/config/robot_description.urdf\n'}
+[10.433967] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/ament_index/resource_index/package_run_dependencies/xsens_node\n'}
+[10.443334] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/ament_index/resource_index/parent_prefix_path/xsens_node\n'}
+[10.454238] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/environment/ament_prefix_path.sh\n'}
+[10.463644] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/environment/ament_prefix_path.dsv\n'}
+[10.472150] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/environment/path.sh\n'}
+[10.480156] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/environment/path.dsv\n'}
+[10.488617] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/local_setup.bash\n'}
+[10.496947] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/local_setup.sh\n'}
+[10.505076] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/local_setup.zsh\n'}
+[10.513225] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/local_setup.dsv\n'}
+[10.522065] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/package.dsv\n'}
+[10.523847] (-) TimerEvent: {}
+[10.530467] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/ament_index/resource_index/packages/xsens_node\n'}
+[10.538787] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/cmake/xsens_nodeConfig.cmake\n'}
+[10.546760] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/cmake/xsens_nodeConfig-version.cmake\n'}
+[10.555618] (xsens_node) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/package.xml\n'}
+[10.565827] (xsens_node) CommandEnded: {'returncode': 0}
+[10.623933] (-) TimerEvent: {}
+[10.701801] (xsens_node) JobEnded: {'identifier': 'xsens_node', 'rc': 0}
+[10.702409] (-) EventReactorShutdown: {}

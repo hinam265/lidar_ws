@@ -1,0 +1,17 @@
+[0.486s] Invoking command in '/home/ngocdai/lidar_ws/build/my_bleak': PYTHONPATH=/home/ngocdai/lidar_ws/build/my_bleak/prefix_override:/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ngocdai/lidar_ws/build/my_bleak/build --no-deps install_data
+[0.679s] running develop
+[0.807s] running egg_info
+[0.807s] writing my_bleak.egg-info/PKG-INFO
+[0.807s] writing dependency_links to my_bleak.egg-info/dependency_links.txt
+[0.807s] writing entry points to my_bleak.egg-info/entry_points.txt
+[0.808s] writing requirements to my_bleak.egg-info/requires.txt
+[0.808s] writing top-level names to my_bleak.egg-info/top_level.txt
+[0.809s] reading manifest file 'my_bleak.egg-info/SOURCES.txt'
+[0.809s] writing manifest file 'my_bleak.egg-info/SOURCES.txt'
+[0.810s] running build_ext
+[0.811s] Creating /home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages/my-bleak.egg-link (link to .)
+[0.811s] Installing bleak_node script to /home/ngocdai/lidar_ws/install/my_bleak/lib/my_bleak
+[0.811s] 
+[0.811s] Installed /home/ngocdai/lidar_ws/build/my_bleak
+[0.811s] running install_data
+[0.840s] Invoked command in '/home/ngocdai/lidar_ws/build/my_bleak' returned '0': PYTHONPATH=/home/ngocdai/lidar_ws/build/my_bleak/prefix_override:/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/ngocdai/lidar_ws/build/my_bleak/build --no-deps install_data

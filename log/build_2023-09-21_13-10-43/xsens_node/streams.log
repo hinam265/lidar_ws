@@ -1,0 +1,32 @@
+[0.005s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[0.033s] [35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[2.011s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In function ‘[01m[Kvoid scanForBluetoothDevices()[m[K’:
+[2.011s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:46:16:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.011s]    46 |         return [01;31m[K-1[m[K;
+[2.011s]       |                [01;31m[K^~[m[K
+[2.011s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:55:16:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.012s]    55 |         return [01;31m[K-1[m[K;
+[2.012s]       |                [01;31m[K^~[m[K
+[2.012s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:64:16:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.012s]    64 |         return [01;31m[K-1[m[K;
+[2.012s]       |                [01;31m[K^~[m[K
+[2.017s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.017s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:78:15:[m[K [01;31m[Kerror: [m[K‘[01m[KXsDevice[m[K’ was not declared in this scope; did you mean ‘[01m[KXsDeviceId[m[K’?
+[2.017s]    78 |   std::vector<[01;31m[KXsDevice[m[K*> devices = scanForBluetoothDevices();
+[2.017s]       |               [01;31m[K^~~~~~~~[m[K
+[2.017s]       |               [32m[KXsDeviceId[m[K
+[2.017s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:78:24:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.017s]    78 |   std::vector<XsDevice*[01;31m[K>[m[K devices = scanForBluetoothDevices();
+[2.017s]       |                        [01;31m[K^[m[K
+[2.017s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:78:24:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[2.017s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:78:59:[m[K [01;31m[Kerror: [m[Kvoid value not ignored as it ought to be
+[2.017s]    78 |   std::vector<XsDevice*> devices = [01;31m[KscanForBluetoothDevices()[m[K;
+[2.017s]       |                                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.020s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:78:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdevices[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.020s]    78 |   std::vector<XsDevice*> [01;35m[Kdevices[m[K = scanForBluetoothDevices();
+[2.020s]       |                          [01;35m[K^~~~~~~[m[K
+[2.917s] gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+[2.917s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+[2.917s] gmake: *** [Makefile:146: all] Error 2
+[2.919s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '2': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12

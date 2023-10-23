@@ -1,0 +1,21 @@
+[31mCMake Error at CMakeLists.txt:29 (add_executable):
+  add_executable cannot create target "xsens_receive" because another target
+  with the same name already exists.  The existing target is an executable
+  created in source directory "/home/ngocdai/lidar_ws/src/cpp_xsens".  See
+  documentation for policy CMP0002 for more details.
+
+[0m
+[31mCMake Error at /opt/ros/iron/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:145 (target_link_libraries):
+  The keyword signature for target_link_libraries has already been used with
+  the target "xsens_receive".  All uses of target_link_libraries with a
+  target must be either all-keyword or all-plain.
+
+  The uses of the keyword signature are here:
+
+   * CMakeLists.txt:30 (target_link_libraries)
+
+Call Stack (most recent call first):
+  CMakeLists.txt:34 (ament_target_dependencies)
+
+[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

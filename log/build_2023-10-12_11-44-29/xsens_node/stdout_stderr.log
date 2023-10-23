@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target odom_pub[0m
+[ 33%] [32m[1mLinking CXX executable xsens_pub[0m
+[ 33%] [32m[1mLinking CXX executable xsens_rec[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o[0m
+[ 66%] Built target xsens_rec
+[ 83%] Built target xsens_pub
+In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:1[m[K:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:34:87:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   34 |     void EstimateDistance(double acc_x, double acc_y, double yaw, double time_interval[01;31m[K)[m[K
+      |                                                                                       [01;31m[K^[m[K
+      |                                                                                        [32m[K;[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:27:8:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kdouble OdometryNode::EstimateDistance(double, double, double, double)[m[K’
+   27 | double [01;31m[KOdometryNode[m[K::EstimateDistance(double acc_x, double acc_y, double yaw, double delta)
+      |        [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:1[m[K:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:34:10:[m[K [01;36m[Knote: [m[Kcandidate is: ‘[01m[Kvoid OdometryNode::EstimateDistance(double, double, double, double)[m[K’
+   34 |     void [01;36m[KEstimateDistance[m[K(double acc_x, double acc_y, double yaw, double time_interval)
+      |          [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:11:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass OdometryNode[m[K’ defined here
+   11 | class [01;36m[KOdometryNode[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/odom_pub.dir/build.make:76: CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/odom_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,49 @@
+[0.007s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[0.052s] [ 50%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[2.077s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In constructor ‘[01m[KXsensPublisher::XsensPublisher()[m[K’:
+[2.077s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:24:19:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KXsensPublisher::XsensPublisher()::<lambda(int)>[m[K’ to ‘[01m[K__sighandler_t[m[K’ {aka ‘[01m[Kvoid (*)(int)[m[K’}
+[2.077s]    24 |             [01;31m[Ksignal(SIGINT, [&] (int) {[m[K
+[2.077s]       |             [01;31m[K~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[2.077s]       |                   [01;31m[K|[m[K
+[2.077s]       |                   [01;31m[KXsensPublisher::XsensPublisher()::<lambda(int)>[m[K
+[2.077s]    25 | [01;31m[K                RCLCPP_INFO(rclcpp::get_logger("xsens_publisher"), "Stopping measurement...");[m[K
+[2.077s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.077s]    26 | 
+[2.077s]       |                    
+[2.077s]    27 | [01;31m[K                // Stop all devices and disable logging.[m[K
+[2.077s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.077s]    28 | [01;31m[K                for (auto device : this->xdpcHandler.connectedDots())[m[K
+[2.077s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.077s]    29 | [01;31m[K                {[m[K
+[2.077s]       |                 [01;31m[K~[m[K  
+[2.078s]    30 | [01;31m[K                    device->stopMeasurement();[m[K
+[2.078s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.078s]    31 | [01;31m[K                    device->disableLogging();[m[K
+[2.078s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.078s]    32 | [01;31m[K                }[m[K
+[2.078s]       |                 [01;31m[K~[m[K  
+[2.078s]    33 | 
+[2.078s]       |                    
+[2.078s]    34 | [01;31m[K                // Clean up the XDPC handler.[m[K
+[2.078s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.078s]    35 | [01;31m[K                this->xdpcHandler.cleanup();[m[K
+[2.078s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.078s]    36 | 
+[2.078s]       |                    
+[2.078s]    37 | [01;31m[K                // Shutdown the ROS node.[m[K
+[2.078s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.078s]    38 | [01;31m[K                rclcpp::shutdown();[m[K
+[2.078s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~[m[K
+[2.078s]    39 | [01;31m[K            })[m[K;
+[2.078s]       |             [01;31m[K~~[m[K     
+[2.078s] In file included from [01m[K/usr/include/c++/11/csignal:42[m[K,
+[2.078s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:164[m[K,
+[2.078s]                  from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:7[m[K:
+[2.078s] [01m[K/usr/include/signal.h:88:57:[m[K [01;36m[Knote: [m[K  initializing argument 2 of ‘[01m[Kvoid (* signal(int, __sighandler_t))(int)[m[K’
+[2.079s]    88 | extern __sighandler_t signal (int __sig, [01;36m[K__sighandler_t __handler[m[K)
+[2.079s]       |                                          [01;36m[K~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.940s] gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+[2.940s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+[2.940s] gmake: *** [Makefile:146: all] Error 2
+[2.943s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '2': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12

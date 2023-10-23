@@ -1,0 +1,33 @@
+[0.007s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[0.035s] [35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[0.048s] [ 50%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[1.927s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kvoid XsensPublisher::GetData()[m[K’:
+[1.927s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:62:47:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.928s]    62 |                             for (int i = 0; [01;35m[Ki < float_array.size()[m[K; i++) {
+[1.928s]       |                                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[1.928s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:66:47:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.928s]    66 |                             for (int i = 0; [01;35m[Ki < float_array.size()[m[K; i++) {
+[1.928s]       |                                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[3.192s] [100%] [32m[1mLinking CXX executable xsens_pub[0m
+[3.397s] [100%] Built target xsens_pub
+[3.407s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '0': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[3.423s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/xsens_node
+[3.427s] -- Install configuration: ""
+[3.427s] -- Installing: /home/ngocdai/lidar_ws/install/xsens_node/lib/xsens_node/xsens_pub
+[3.428s] -- Set runtime path of "/home/ngocdai/lidar_ws/install/xsens_node/lib/xsens_node/xsens_pub" to ""
+[3.429s] -- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_node/share/ament_index/resource_index/package_run_dependencies/xsens_node
+[3.429s] -- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_node/share/ament_index/resource_index/parent_prefix_path/xsens_node
+[3.429s] -- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/environment/ament_prefix_path.sh
+[3.429s] -- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/environment/ament_prefix_path.dsv
+[3.429s] -- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/environment/path.sh
+[3.429s] -- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/environment/path.dsv
+[3.429s] -- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/local_setup.bash
+[3.429s] -- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/local_setup.sh
+[3.429s] -- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/local_setup.zsh
+[3.429s] -- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/local_setup.dsv
+[3.429s] -- Installing: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/package.dsv
+[3.429s] -- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_node/share/ament_index/resource_index/packages/xsens_node
+[3.429s] -- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/cmake/xsens_nodeConfig.cmake
+[3.429s] -- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/cmake/xsens_nodeConfig-version.cmake
+[3.429s] -- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/package.xml
+[3.430s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '0': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/xsens_node

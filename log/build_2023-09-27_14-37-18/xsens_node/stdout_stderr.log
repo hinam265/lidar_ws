@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target odom_pub[0m
+[ 66%] Built target xsens_pub
+[ 66%] Built target xsens_rec
+[ 83%] [32mBuilding CXX object CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o[0m
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:[m[K In member function ‘[01m[Kvoid OdometryNode::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:21:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass tf2::Matrix3x3[m[K’ has no member named ‘[01m[Kroll[m[K’
+   21 |     cout << euler.[01;31m[Kroll[m[K << " " << euler.pitch << " " << euler.yaw << endl;
+      |                   [01;31m[K^~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:21:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass tf2::Matrix3x3[m[K’ has no member named ‘[01m[Kpitch[m[K’
+   21 |     cout << euler.roll << " " << euler.[01;31m[Kpitch[m[K << " " << euler.yaw << endl;
+      |                                        [01;31m[K^~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:21:62:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass tf2::Matrix3x3[m[K’ has no member named ‘[01m[Kyaw[m[K’
+   21 |     cout << euler.roll << " " << euler.pitch << " " << euler.[01;31m[Kyaw[m[K << endl;
+      |                                                              [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/odom_pub.dir/build.make:76: CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/odom_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

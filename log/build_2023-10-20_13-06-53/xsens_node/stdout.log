@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[35m[1mConsolidate compiler generated dependencies of target xsens_rec[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[ 75%] Built target xsens_rec
+[100%] [32m[1mLinking CXX executable xsens_pub[0m
+[100%] Built target xsens_pub
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/lib/xsens_node//xsens_pub
+-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/lib/xsens_node//xsens_rec

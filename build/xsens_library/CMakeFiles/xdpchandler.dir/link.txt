@@ -1,0 +1,2 @@
+/usr/bin/ar qc libxdpchandler.a CMakeFiles/xdpchandler.dir/src/xdpchandler.cpp.o
+/usr/bin/ranlib libxdpchandler.a

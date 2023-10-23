@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target odom_pub[0m
+[ 66%] Built target xsens_pub
+[ 66%] Built target xsens_rec
+[ 83%] [32mBuilding CXX object CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o[0m
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:[m[K In member function ‘[01m[Kvoid OdometryNode::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:13:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2::transformations[m[K’ has not been declared
+   13 |     Eigen::Matrix3d rotational_matrix = tf2::[01;31m[Ktransformations[m[K::quaternionToMatrix(imu_orientation);
+      |                                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:13:82:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_orientation[m[K’ was not declared in this scope
+   13 |     Eigen::Matrix3d rotational_matrix = tf2::transformations::quaternionToMatrix([01;31m[Kimu_orientation[m[K);
+      |                                                                                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:13:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krotational_matrix[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   13 |     Eigen::Matrix3d [01;35m[Krotational_matrix[m[K = tf2::transformations::quaternionToMatrix(imu_orientation);
+      |                     [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:10:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kimu_message[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   10 | void OdometryNode::imuCallback([01;35m[Kconst sensor_msgs::msg::Imu::SharedPtr imu_message[m[K)
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/odom_pub.dir/build.make:76: CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/odom_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

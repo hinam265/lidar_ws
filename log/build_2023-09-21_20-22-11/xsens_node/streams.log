@@ -1,0 +1,17 @@
+[0.007s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[0.049s] [ 50%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[1.986s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kbool XsensPublisher::scanForBluetoothDevices()[m[K’:
+[1.986s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:133:45:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[KXsString XsDotDevice::bluetoothAddress() const[m[K’
+[1.986s]   133 |                 [01;31m[Kcout << "Connect address: " << device->bluetoothAddress[m[K << endl;
+[1.986s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.986s] In file included from [01m[K/usr/local/movella/include/movelladot_pc_sdk.h:30[m[K,
+[1.986s]                  from [01m[K/home/ngocdai/lidar_ws/install/xsens_library/include/xsens_library/xdpchandler.h:4[m[K,
+[1.986s]                  from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:9[m[K:
+[1.986s] [01m[K/usr/local/movella/include/movelladot_pc_sdk/xsdotdevice.h:137:25:[m[K [01;36m[Knote: [m[Kdeclared here
+[1.986s]   137 |         inline XsString [01;36m[KbluetoothAddress[m[K(void) const
+[1.986s]       |                         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.803s] gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+[2.803s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+[2.803s] gmake: *** [Makefile:146: all] Error 2
+[2.804s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '2': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12

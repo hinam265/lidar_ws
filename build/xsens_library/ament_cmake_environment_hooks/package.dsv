@@ -1,0 +1,4 @@
+source;share/xsens_library/local_setup.bash
+source;share/xsens_library/local_setup.dsv
+source;share/xsens_library/local_setup.sh
+source;share/xsens_library/local_setup.zsh

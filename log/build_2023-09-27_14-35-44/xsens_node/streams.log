@@ -1,0 +1,22 @@
+[0.007s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target odom_pub[0m
+[0.050s] [ 66%] Built target xsens_pub
+[0.051s] [ 66%] Built target xsens_rec
+[0.056s] [ 83%] [32mBuilding CXX object CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o[0m
+[2.774s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:[m[K In member function ‘[01m[Kvoid OdometryNode::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.774s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:13:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Korientation[m[K’
+[2.774s]    13 |         imu_message.[01;31m[Korientation[m[K.x,
+[2.774s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[2.774s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:14:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Korientation[m[K’
+[2.774s]    14 |         imu_message.[01;31m[Korientation[m[K.y,
+[2.774s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[2.774s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:15:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Korientation[m[K’
+[2.774s]    15 |         imu_message.[01;31m[Korientation[m[K.z,
+[2.774s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[2.774s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:16:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<sensor_msgs::msg::Imu_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Korientation[m[K’
+[2.774s]    16 |         imu_message.[01;31m[Korientation[m[K.w);
+[2.774s]       |                     [01;31m[K^~~~~~~~~~~[m[K
+[4.137s] gmake[2]: *** [CMakeFiles/odom_pub.dir/build.make:76: CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o] Error 1
+[4.137s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/odom_pub.dir/all] Error 2
+[4.137s] gmake: *** [Makefile:146: all] Error 2
+[4.138s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '2': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12

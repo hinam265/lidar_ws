@@ -1,0 +1,61 @@
+[0.049s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[0.073s] -- Found ament_cmake_python: 2.0.3 (/opt/ros/iron/share/ament_cmake_python/cmake)
+[0.073s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.185s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.191s] -- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+[0.216s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.222s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.234s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.363s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.364s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.483s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.609s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[0.632s] -- Found xsens_library: 0.0.0 (/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake)
+[0.632s] -- Found nav_msgs: 5.0.0 (/opt/ros/iron/share/nav_msgs/cmake)
+[0.750s] -- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.826s] -- Found yaml_cpp_vendor: 8.1.2 (/opt/ros/iron/share/yaml_cpp_vendor/cmake)
+[0.827s] -- Found tf2_geometry_msgs: 0.31.5 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)
+[0.830s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[0.831s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.167s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.232s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[1.251s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.251s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.251s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.258s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.258s] -- Configured cppcheck include dirs: /home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node
+[1.258s] -- Configured cppcheck exclude dirs and/or files: 
+[1.258s] -- Added test 'lint_cmake' to check CMake code style
+[1.259s] -- Added test 'uncrustify' to check C / C++ code style
+[1.259s] -- Configured uncrustify additional arguments: 
+[1.259s] -- Added test 'xmllint' to check XML markup files
+[1.260s] -- Configuring done
+[1.275s] -- Generating done
+[1.276s] -- Build files have been written to: /home/ngocdai/lidar_ws/build/xsens_node
+[1.302s] [35m[1mConsolidate compiler generated dependencies of target xsens_rec[0m
+[1.302s] [35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[1.324s] [100%] Built target xsens_pub
+[1.325s] [100%] Built target xsens_rec
+[1.336s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '0': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[1.365s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/xsens_node
+[1.372s] -- Install configuration: ""
+[1.373s] -- Execute custom install script
+[1.373s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/lib/xsens_node//xsens_pub
+[1.373s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/lib/xsens_node//xsens_rec
+[1.373s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/share/ament_index/resource_index/package_run_dependencies/xsens_node
+[1.373s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/share/ament_index/resource_index/parent_prefix_path/xsens_node
+[1.374s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/environment/ament_prefix_path.sh
+[1.374s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/environment/ament_prefix_path.dsv
+[1.374s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/environment/path.sh
+[1.374s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/environment/path.dsv
+[1.374s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/local_setup.bash
+[1.374s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/local_setup.sh
+[1.374s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/local_setup.zsh
+[1.374s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/local_setup.dsv
+[1.375s] -- Symlinking: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/package.dsv
+[1.384s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/share/ament_index/resource_index/packages/xsens_node
+[1.384s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/cmake/xsens_nodeConfig.cmake
+[1.384s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/cmake/xsens_nodeConfig-version.cmake
+[1.384s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/share/xsens_node/package.xml
+[1.387s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '0': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/xsens_node

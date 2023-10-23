@@ -1,0 +1,27 @@
+[0.009s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_library -- -j12 -l12
+[0.024s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.119s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[0.166s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.166s] -- Configured cppcheck include dirs: /home/ngocdai/lidar_ws/src/xsens_library/include
+[0.166s] -- Configured cppcheck exclude dirs and/or files: 
+[0.167s] -- Added test 'lint_cmake' to check CMake code style
+[0.167s] -- Added test 'uncrustify' to check C / C++ code style
+[0.167s] -- Configured uncrustify additional arguments: 
+[0.167s] -- Added test 'xmllint' to check XML markup files
+[0.168s] -- Configuring done
+[0.171s] -- Generating done
+[0.171s] -- Build files have been written to: /home/ngocdai/lidar_ws/build/xsens_library
+[0.185s] [35m[1mConsolidate compiler generated dependencies of target xdpchandler[0m
+[0.193s] [100%] Built target xdpchandler
+[0.199s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_library -- -j12 -l12
+[0.218s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/xsens_library
+[0.223s] -- Install configuration: ""
+[0.223s] -- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/library_path.sh
+[0.223s] [31mCMake Error at cmake_install.cmake:54 (file):
+[0.223s]   file INSTALL cannot find
+[0.223s]   "/home/ngocdai/lidar_ws/src/xsens_library/include/xdpchandler": No such
+[0.224s]   file or directory.
+[0.224s] 
+[0.224s] [0m
+[0.224s] -- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/library_path.dsv
+[0.224s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_library' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/xsens_library

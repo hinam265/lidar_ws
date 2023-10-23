@@ -1,0 +1,5 @@
+  File "/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages/my_bleak/bleak_node.py", line 16
+    self.publisher = self.create_Imu, 'imu_data', 10)
+                                                    ^
+SyntaxError: unmatched ')'
+

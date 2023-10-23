@@ -1,0 +1,10 @@
+[0.010s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_library -- -j12 -l12
+[0.039s] [ 50%] [32mBuilding CXX object CMakeFiles/xdpchandler.dir/src/xdpchandler.cpp.o[0m
+[0.044s] [01m[K/home/ngocdai/lidar_ws/src/xsens_library/src/xdpchandler.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kxdpchandler.h: No such file or directory
+[0.044s]     1 | #include [01;31m[K"xdpchandler.h"[m[K
+[0.044s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[0.044s] compilation terminated.
+[0.044s] gmake[2]: *** [CMakeFiles/xdpchandler.dir/build.make:76: CMakeFiles/xdpchandler.dir/src/xdpchandler.cpp.o] Error 1
+[0.044s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xdpchandler.dir/all] Error 2
+[0.044s] gmake: *** [Makefile:146: all] Error 2
+[0.046s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_library' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_library -- -j12 -l12

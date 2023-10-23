@@ -1,0 +1,1 @@
+/home/ngocdai/lidar_ws/build/xsens_library/ament_cmake_core/xsens_libraryConfig-version.cmake

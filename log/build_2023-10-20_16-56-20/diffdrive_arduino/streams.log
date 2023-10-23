@@ -1,0 +1,49 @@
+[0.064s] Invoking command in '/home/ngocdai/lidar_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/diffdrive_arduino:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/diffdrive_arduino -- -j12 -l12
+[0.086s] -- Found ament_cmake_python: 2.0.3 (/opt/ros/iron/share/ament_cmake_python/cmake)
+[0.086s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.196s] -- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+[0.221s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.228s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.237s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.249s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.363s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.364s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.479s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.602s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[0.625s] -- Found xsens_library: 0.0.0 (/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake)
+[0.625s] -- Found nav_msgs: 5.0.0 (/opt/ros/iron/share/nav_msgs/cmake)
+[0.743s] -- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.820s] -- Found yaml_cpp_vendor: 8.1.2 (/opt/ros/iron/share/yaml_cpp_vendor/cmake)
+[0.820s] -- Found tf2_geometry_msgs: 0.31.5 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)
+[0.823s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[0.824s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.153s] -- Found hardware_interface: 3.18.0 (/opt/ros/iron/share/hardware_interface/cmake)
+[1.515s] -- Found ament_cmake_gtest: 2.0.3 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[1.566s] -- Configuring done
+[1.585s] -- Generating done
+[1.587s] -- Build files have been written to: /home/ngocdai/lidar_ws/build/diffdrive_arduino
+[1.615s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[1.615s] [35m[1mConsolidate compiler generated dependencies of target imu_rec[0m
+[1.615s] [35m[1mConsolidate compiler generated dependencies of target imu_pub[0m
+[1.636s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_rec.dir/src/imu_receiver.cpp.o[0m
+[1.637s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o[0m
+[1.637s] [ 50%] [32mBuilding CXX object CMakeFiles/imu_pub.dir/src/imu_publisher.cpp.o[0m
+[1.874s] In file included from [01m[K/home/ngocdai/lidar_ws/src/diffdrive_arduino/src/imu_publisher.cpp:8[m[K:
+[1.874s] [01m[K/home/ngocdai/lidar_ws/src/xsens_library/include/xsens_library/xdpchandler.h:4:10:[m[K [01;31m[Kfatal error: [m[Kmovelladot_pc_sdk.h: No such file or directory
+[1.874s]     4 | #include [01;31m[K<movelladot_pc_sdk.h>[m[K
+[1.874s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.874s] compilation terminated.
+[1.877s] In file included from [01m[K/home/ngocdai/lidar_ws/src/diffdrive_arduino/src/imu_receiver.cpp:8[m[K:
+[1.878s] [01m[K/home/ngocdai/lidar_ws/src/xsens_library/include/xsens_library/xdpchandler.h:4:10:[m[K [01;31m[Kfatal error: [m[Kmovelladot_pc_sdk.h: No such file or directory
+[1.878s]     4 | #include [01;31m[K<movelladot_pc_sdk.h>[m[K
+[1.878s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.878s] compilation terminated.
+[1.885s] gmake[2]: *** [CMakeFiles/imu_pub.dir/build.make:76: CMakeFiles/imu_pub.dir/src/imu_publisher.cpp.o] Error 1
+[1.885s] gmake[2]: *** [CMakeFiles/imu_rec.dir/build.make:76: CMakeFiles/imu_rec.dir/src/imu_receiver.cpp.o] Error 1
+[1.886s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/imu_pub.dir/all] Error 2
+[1.886s] gmake[1]: *** Waiting for unfinished jobs....
+[1.886s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/imu_rec.dir/all] Error 2
+[4.952s] [ 66%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[5.090s] [ 66%] Built target diffdrive_arduino
+[5.092s] gmake: *** [Makefile:146: all] Error 2
+[5.094s] Invoked command in '/home/ngocdai/lidar_ws/build/diffdrive_arduino' returned '2': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/diffdrive_arduino:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/diffdrive_arduino -- -j12 -l12

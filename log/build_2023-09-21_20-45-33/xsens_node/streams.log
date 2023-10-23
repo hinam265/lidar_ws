@@ -1,0 +1,22 @@
+[0.006s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[0.038s] [35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[0.051s] [ 50%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[2.017s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In lambda function:
+[2.017s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:37:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[2.017s]    37 |                 for (auto device : [01;31m[KxdpcHandler[m[K.connectedDots())
+[2.017s]       |                                    [01;31m[K^~~~~~~~~~~[m[K
+[2.017s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:37:36:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KXsensPublisher::xdpcHandler[m[K’
+[2.017s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:26:21:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.017s]    26 |         XdpcHandler [01;36m[KxdpcHandler[m[K;
+[2.017s]       |                     [01;36m[K^~~~~~~~~~~[m[K
+[2.017s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:44:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kthis[m[K’ was not captured for this lambda function
+[2.017s]    44 |                 [01;31m[KxdpcHandler[m[K.cleanup();
+[2.017s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[2.017s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:44:17:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static data member ‘[01m[KXsensPublisher::xdpcHandler[m[K’
+[2.017s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:26:21:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.018s]    26 |         XdpcHandler [01;36m[KxdpcHandler[m[K;
+[2.018s]       |                     [01;36m[K^~~~~~~~~~~[m[K
+[2.869s] gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+[2.870s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+[2.870s] gmake: *** [Makefile:146: all] Error 2
+[2.872s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '2': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12

@@ -1,0 +1,32 @@
+[0.008s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[0.038s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.155s] -- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+[0.191s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.203s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.222s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.236s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.362s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.364s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.470s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.603s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[0.628s] -- Found xsens_library: 0.0.0 (/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake)
+[0.638s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.638s]   By not providing "Findtf.cmake" in CMAKE_MODULE_PATH this project has asked
+[0.638s]   CMake to find a package configuration file provided by "tf", but CMake did
+[0.638s]   not find one.
+[0.638s] 
+[0.638s]   Could not find a package configuration file provided by "tf" with any of
+[0.638s]   the following names:
+[0.639s] 
+[0.639s]     tfConfig.cmake
+[0.639s]     tf-config.cmake
+[0.639s] 
+[0.639s]   Add the installation prefix of "tf" to CMAKE_PREFIX_PATH or set "tf_DIR" to
+[0.639s]   a directory containing one of the above files.  If "tf" provides a separate
+[0.639s]   development package or SDK, be sure it has been installed.
+[0.639s] 
+[0.639s] [0m
+[0.639s] -- Configuring incomplete, errors occurred!
+[0.639s] See also "/home/ngocdai/lidar_ws/build/xsens_node/CMakeFiles/CMakeOutput.log".
+[0.647s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.649s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '2': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12

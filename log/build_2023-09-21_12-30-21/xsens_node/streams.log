@@ -1,0 +1,11 @@
+[0.006s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[0.038s] [ 50%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[0.174s] In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:8[m[K:
+[0.174s] [01m[K/home/ngocdai/lidar_ws/install/xsens_library/include/xsens_library/xdpchandler.h:4:10:[m[K [01;31m[Kfatal error: [m[Kmovelladot_pc_sdk.h: No such file or directory
+[0.174s]     4 | #include [01;31m[K<movelladot_pc_sdk.h>[m[K
+[0.174s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[0.174s] compilation terminated.
+[0.182s] gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+[0.183s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+[0.183s] gmake: *** [Makefile:146: all] Error 2
+[0.184s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '2': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12

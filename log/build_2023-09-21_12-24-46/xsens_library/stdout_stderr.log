@@ -1,0 +1,40 @@
+-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/ngocdai/lidar_ws/src/xsens_library/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ngocdai/lidar_ws/build/xsens_library
+[35m[1mConsolidate compiler generated dependencies of target xdpchandler[0m
+[100%] Built target xdpchandler
+-- Install configuration: ""
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/library_path.sh
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/library_path.dsv
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/include/xsens_library
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/include/xsens_library/user_settings.h
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/include/xsens_library/conio.h
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/include/xsens_library/xdpchandler.h
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/lib/libxdpchandler.a
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/ament_index/resource_index/package_run_dependencies/xsens_library
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/ament_index/resource_index/parent_prefix_path/xsens_library
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/ament_prefix_path.sh
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/ament_prefix_path.dsv
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/path.sh
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/path.dsv
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/local_setup.bash
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/local_setup.sh
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/local_setup.zsh
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/local_setup.dsv
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.dsv
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/ament_index/resource_index/packages/xsens_library
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xdpchandlerExport.cmake
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xdpchandlerExport-noconfig.cmake
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xsens_libraryConfig.cmake
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xsens_libraryConfig-version.cmake
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.xml

@@ -1,0 +1,5 @@
+  File "/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages/my_bleak/bleak_node.py", line 23
+    await self.imu_client = BleakClient(self.imu_address)
+    ^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to await expression here. Maybe you meant '==' instead of '='?
+

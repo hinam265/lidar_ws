@@ -1,0 +1,21 @@
+[0.006s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[0.041s] [35m[1mConsolidate compiler generated dependencies of target odom_pub[0m
+[0.052s] [ 66%] Built target xsens_pub
+[0.052s] [ 66%] Built target xsens_rec
+[0.060s] [ 83%] [32mBuilding CXX object CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o[0m
+[0.224s] In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:7[m[K,
+[0.224s]                  from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:1[m[K:
+[0.224s] [01m[K/opt/ros/iron/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.224s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.224s]       |  [01;35m[K^~~~~~~[m[K
+[2.853s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:[m[K In member function ‘[01m[Kvoid OdometryNode::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.853s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:11:46:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2::transformations[m[K’ has not been declared
+[2.853s]    11 |     Eigen::Matrix3d rotational_matrix = tf2::[01;31m[Ktransformations[m[K::quaternionToMatrix(imu_message->orientation);
+[2.853s]       |                                              [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.853s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:11:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Krotational_matrix[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[2.853s]    11 |     Eigen::Matrix3d [01;35m[Krotational_matrix[m[K = tf2::transformations::quaternionToMatrix(imu_message->orientation);
+[2.853s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[4.249s] gmake[2]: *** [CMakeFiles/odom_pub.dir/build.make:76: CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o] Error 1
+[4.249s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/odom_pub.dir/all] Error 2
+[4.249s] gmake: *** [Makefile:146: all] Error 2
+[4.251s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '2': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12

@@ -1,0 +1,31 @@
+[01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xsens_receive_data.cpp:9:37:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kclass[m[K’
+    9 | using namespace std::chrono_literals
+      |                                     [01;31m[K^[m[K
+      |                                     [32m[K;[m[K
+   10 | 
+   11 | [32m[Kclass[m[K XsensPublisher : public rclcpp::Node
+      | [32m[K~~~~~[m[K                                
+[01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xsens_receive_data.cpp:23:5:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K{[m[K’ token
+   23 |     [01;31m[K{[m[K
+      |     [01;31m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xsens_receive_data.cpp:29:13:[m[K [01;31m[Kerror: [m[K‘[01m[KTImerBase[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type; did you mean ‘[01m[KTimerBase[m[K’?
+   29 |     rclcpp::[01;31m[KTImerBase[m[K::SharePtr timer_;
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[KTimerBase[m[K
+[01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xsens_receive_data.cpp:30:47:[m[K [01;31m[Kerror: [m[K‘[01m[KSharePtr[m[K’ in ‘[01m[Kclass rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >[m[K’ does not name a type
+   30 |     rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharePtr[m[K publisher_;
+      |                                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xsens_receive_data.cpp:[m[K In constructor ‘[01m[KXsensPublisher::XsensPublisher()[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xsens_receive_data.cpp:17:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+   17 |             [01;31m[Kpublisher[m[K = this->create_publisher<std_msgs::msg::String>("topic", 10);
+      |             [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xsens_receive_data.cpp:18:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   18 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |             [01;31m[K^~~~~~[m[K
+      |             [32m[Ktimer_t[m[K
+[01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xsens_receive_data.cpp:19:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KXsensPublisher[m[K’
+   19 |             500ms, std::bind(&XsensPublisher::[01;31m[Ktimer_callback[m[K, this));
+      |                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/xsens_receive.dir/build.make:76: CMakeFiles/xsens_receive.dir/src/xsens_receive_data.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/xsens_receive.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

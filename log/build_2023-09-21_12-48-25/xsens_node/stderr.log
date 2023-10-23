@@ -1,0 +1,52 @@
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kvoid XsensPublisher::timer_callback()[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:31:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kdevices[m[K’ was not declared in this scope; did you mean ‘[01m[Kdevice[m[K’?
+   31 |             for (auto* device : [01;31m[Kdevices[m[K) {
+      |                                 [01;31m[K^~~~~~~[m[K
+      |                                 [32m[Kdevice[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K At global scope:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:48:33:[m[K [01;31m[Kerror: [m[K‘[01m[KXsDevice[m[K’ does not name a type; did you mean ‘[01m[KXsDeviceId[m[K’?
+   48 | void printDeviceConnected(const [01;31m[KXsDevice[m[K* device) {
+      |                                 [01;31m[K^~~~~~~~[m[K
+      |                                 [32m[KXsDeviceId[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In function ‘[01m[Kvoid printDeviceConnected(const int*)[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:49:48:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[KbluetoothAddress[m[K’ in ‘[01m[K* device[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   49 |   std::cout << "Device connected: " << device->[01;31m[KbluetoothAddress[m[K().toStdString() << std::endl;
+      |                                                [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K At global scope:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:52:13:[m[K [01;31m[Kerror: [m[K‘[01m[KXsDevice[m[K’ was not declared in this scope; did you mean ‘[01m[KXsDeviceId[m[K’?
+   52 | std::vector<[01;31m[KXsDevice[m[K*> scanForBluetoothDevices()
+      |             [01;31m[K^~~~~~~~[m[K
+      |             [32m[KXsDeviceId[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:52:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   52 | std::vector<XsDevice*[01;31m[K>[m[K scanForBluetoothDevices()
+      |                      [01;31m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:52:22:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In function ‘[01m[Kint scanForBluetoothDevices()[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:71:26:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[KXsDotDevice*[m[K’ to ‘[01m[Kconst int*[m[K’
+   71 |     printDeviceConnected([01;31m[Kdevice[m[K);
+      |                          [01;31m[K^~~~~~[m[K
+      |                          [01;31m[K|[m[K
+      |                          [01;31m[KXsDotDevice*[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:48:43:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kvoid printDeviceConnected(const int*)[m[K’
+   48 | void printDeviceConnected([01;36m[Kconst XsDevice* device[m[K) {
+      |                           [01;36m[K~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:74:35:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::__cxx11::list<XsDotDevice*>[m[K’ to ‘[01m[Kint[m[K’ in return
+   74 |   return [01;31m[KxdpcHandler.connectedDots()[m[K;
+      |          [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+      |                                   [01;31m[K|[m[K
+      |                                   [01;31m[Kstd::__cxx11::list<XsDotDevice*>[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:81:15:[m[K [01;31m[Kerror: [m[K‘[01m[KXsDevice[m[K’ was not declared in this scope; did you mean ‘[01m[KXsDeviceId[m[K’?
+   81 |   std::vector<[01;31m[KXsDevice[m[K*> devices = scanForBluetoothDevices();
+      |               [01;31m[K^~~~~~~~[m[K
+      |               [32m[KXsDeviceId[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:81:24:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   81 |   std::vector<XsDevice*[01;31m[K>[m[K devices = scanForBluetoothDevices();
+      |                        [01;31m[K^[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:81:24:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:81:26:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdevices[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   81 |   std::vector<XsDevice*> [01;35m[Kdevices[m[K = scanForBluetoothDevices();
+      |                          [01;35m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

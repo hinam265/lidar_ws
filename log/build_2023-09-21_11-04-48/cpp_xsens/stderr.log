@@ -1,0 +1,15 @@
+[01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xsens_receive_data.cpp:30:28:[m[K [01;31m[Kerror: [m[K‘[01m[KSharePtr[m[K’ in ‘[01m[Kclass rclcpp::TimerBase[m[K’ does not name a type
+   30 |         rclcpp::TimerBase::[01;31m[KSharePtr[m[K timer_;
+      |                            [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xsens_receive_data.cpp:[m[K In constructor ‘[01m[KXsensPublisher::XsensPublisher()[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xsens_receive_data.cpp:17:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher_[m[K’?
+   17 |             [01;31m[Kpublisher[m[K = this->create_publisher<std_msgs::msg::String>("topic", 10);
+      |             [01;31m[K^~~~~~~~~[m[K
+      |             [32m[Kpublisher_[m[K
+[01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xsens_receive_data.cpp:18:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   18 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |             [01;31m[K^~~~~~[m[K
+      |             [32m[Ktimer_t[m[K
+gmake[2]: *** [CMakeFiles/xsens_receive.dir/build.make:76: CMakeFiles/xsens_receive.dir/src/xsens_receive_data.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/xsens_receive.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

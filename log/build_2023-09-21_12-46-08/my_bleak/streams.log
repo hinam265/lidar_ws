@@ -1,0 +1,2 @@
+[0.504s] Invoking command in '/home/ngocdai/lidar_ws/build/my_bleak': PYTHONPATH=/home/ngocdai/lidar_ws/build/my_bleak/prefix_override:/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/ngocdai/lidar_ws/build/my_bleak/build
+[0.705s] running develop

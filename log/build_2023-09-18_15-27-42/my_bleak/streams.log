@@ -1,0 +1,33 @@
+[0.561s] Invoking command in '/home/ngocdai/lidar_ws/src/my_bleak': PYTHONPATH=/home/ngocdai/lidar_ws/build/my_bleak/prefix_override:/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_bleak build --build-base /home/ngocdai/lidar_ws/build/my_bleak/build install --record /home/ngocdai/lidar_ws/build/my_bleak/install.log --single-version-externally-managed
+[0.718s] running egg_info
+[0.729s] writing ../../build/my_bleak/my_bleak.egg-info/PKG-INFO
+[0.730s] writing dependency_links to ../../build/my_bleak/my_bleak.egg-info/dependency_links.txt
+[0.730s] writing requirements to ../../build/my_bleak/my_bleak.egg-info/requires.txt
+[0.730s] writing top-level names to ../../build/my_bleak/my_bleak.egg-info/top_level.txt
+[0.754s] reading manifest file '../../build/my_bleak/my_bleak.egg-info/SOURCES.txt'
+[0.754s] writing manifest file '../../build/my_bleak/my_bleak.egg-info/SOURCES.txt'
+[0.754s] running build
+[0.754s] running build_py
+[0.754s] running install
+[0.755s] /home/ngocdai/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.755s] !!
+[0.755s] 
+[0.755s]         ********************************************************************************
+[0.755s]         Please avoid running ``setup.py`` directly.
+[0.755s]         Instead, use pypa/build, pypa/installer or other
+[0.755s]         standards-based tools.
+[0.755s] 
+[0.755s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.755s]         ********************************************************************************
+[0.755s] 
+[0.755s] !!
+[0.755s]   self.initialize_options()
+[0.758s] running install_lib
+[0.770s] running install_data
+[0.782s] copying package.xml -> /home/ngocdai/lidar_ws/install/my_bleak/share/my_bleak
+[0.782s] running install_egg_info
+[0.794s] removing '/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages/my_bleak-0.0.0-py3.10.egg-info' (and everything under it)
+[0.794s] Copying ../../build/my_bleak/my_bleak.egg-info to /home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages/my_bleak-0.0.0-py3.10.egg-info
+[0.794s] running install_scripts
+[0.905s] writing list of installed files to '/home/ngocdai/lidar_ws/build/my_bleak/install.log'
+[0.925s] Invoked command in '/home/ngocdai/lidar_ws/src/my_bleak' returned '0': PYTHONPATH=/home/ngocdai/lidar_ws/build/my_bleak/prefix_override:/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_bleak build --build-base /home/ngocdai/lidar_ws/build/my_bleak/build install --record /home/ngocdai/lidar_ws/build/my_bleak/install.log --single-version-externally-managed

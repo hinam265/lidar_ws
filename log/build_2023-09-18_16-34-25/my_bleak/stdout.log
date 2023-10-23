@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing my_bleak.egg-info/PKG-INFO
+writing dependency_links to my_bleak.egg-info/dependency_links.txt
+writing entry points to my_bleak.egg-info/entry_points.txt
+writing requirements to my_bleak.egg-info/requires.txt
+writing top-level names to my_bleak.egg-info/top_level.txt
+reading manifest file 'my_bleak.egg-info/SOURCES.txt'
+writing manifest file 'my_bleak.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages/my-bleak.egg-link (link to .)
+Installing bleak_node script to /home/ngocdai/lidar_ws/install/my_bleak/lib/my_bleak
+
+Installed /home/ngocdai/lidar_ws/build/my_bleak
+running install_data

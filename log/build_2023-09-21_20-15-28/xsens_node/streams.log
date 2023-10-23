@@ -1,0 +1,51 @@
+[0.005s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[0.047s] [ 50%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[0.206s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:164:1:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[0.206s]   164 | 
+[0.206s]       | [01;31m[K^[m[K
+[1.952s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:126:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.952s]   126 |                 RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Connected address: '%s'", device->bluetoothAddress();
+[1.952s]       |                            [01;31m[K^[m[K
+[1.952s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:15:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.952s]    15 | [01;36m[K{[m[K
+[1.952s]       | [01;36m[K^[m[K
+[1.960s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In constructor ‘[01m[KXsensPublisher::XsensPublisher()[m[K’:
+[1.960s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:20:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.960s]    20 |             [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("imu", 10);
+[1.960s]       |             [01;31m[K^~~~~~~~~~[m[K
+[1.960s]       |             [32m[Krmw_publisher_t[m[K
+[1.969s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:21:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.969s]    21 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[1.969s]       |             [01;31m[K^~~~~~[m[K
+[1.969s]       |             [32m[Ktimer_t[m[K
+[1.969s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:22:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KXsensPublisher[m[K’
+[1.970s]    22 |             500ms, std::bind(&XsensPublisher::[01;31m[Ktimer_callback[m[K, this));
+[1.970s]       |                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.979s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kbool XsensPublisher::scanForBluetoothDevices()[m[K’:
+[1.979s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:126:17:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[1.979s]   126 |                 [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Connected address: '%s'", device->bluetoothAddress();
+[1.979s]       |                 [01;31m[K^~~~~~~~~~~[m[K
+[1.979s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:126:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.979s]   126 |                 RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Connected address: '%s'", device->bluetoothAddress();
+[1.979s]       |                            [01;31m[K^[m[K
+[1.979s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:125:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.979s]   125 |             [01;36m[K{[m[K
+[1.979s]       |             [01;36m[K^[m[K
+[1.979s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:124:30:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdevice[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.980s]   124 |             for (auto const& [01;35m[Kdevice[m[K : xdpcHandler.connectedDots())
+[1.980s]       |                              [01;35m[K^~~~~~[m[K
+[1.980s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:126:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.980s]   126 |                 RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Connected address: '%s'", device->bluetoothAddress();
+[1.980s]       |                            [01;31m[K^[m[K
+[1.980s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:98:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.980s]    98 |         [01;36m[K{[m[K
+[1.980s]       |         [01;36m[K^[m[K
+[1.980s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K At global scope:
+[1.980s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:126:28:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[1.980s]   126 |                 RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Connected address: '%s'", device->bluetoothAddress();
+[1.980s]       |                            [01;31m[K^[m[K
+[2.708s] gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+[2.708s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+[2.708s] gmake: *** [Makefile:146: all] Error 2
+[2.710s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '2': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12

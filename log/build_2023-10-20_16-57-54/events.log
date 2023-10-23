@@ -1,0 +1,223 @@
+[0.000000] (-) TimerEvent: {}
+[0.000447] (diffdrive_arduino) JobQueued: {'identifier': 'diffdrive_arduino', 'dependencies': OrderedDict()}
+[0.000593] (xsens_library) JobQueued: {'identifier': 'xsens_library', 'dependencies': OrderedDict()}
+[0.000711] (diffdrive_arduino) JobStarted: {'identifier': 'diffdrive_arduino'}
+[0.056656] (xsens_library) JobStarted: {'identifier': 'xsens_library'}
+[0.099843] (-) TimerEvent: {}
+[0.112542] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'cmake'}
+[0.113017] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'build'}
+[0.113653] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngocdai/lidar_ws/build/diffdrive_arduino', '--', '-j12', '-l12'], 'cwd': '/home/ngocdai/lidar_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'ngocdai'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ngocdai/lidar_ws/install/diffdrive_arduino/lib:/home/ngocdai/lidar_ws/install/xsens_library/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/movella/lib'), ('HOME', '/home/ngocdai'), ('OLDPWD', '/home/ngocdai'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ngocdai/lidar_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'ngocdai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngocdai'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/iron/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/ngocdai/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NgocDai:@/tmp/.ICE-unix/1928,unix/NgocDai:/tmp/.ICE-unix/1928'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/678cb099_7130_4f56_bb97_73f7fa881d0a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DCM4C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1062'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/diffdrive_arduino:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/my_bleak:/home/ngocdai/lidar_ws/install/cpp_xsens:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('CMAKE_LIBRARY_PATH', '$HOME/movella/include:$CMAKE_LIBRARY_PATH'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngocdai/lidar_ws/build/diffdrive_arduino'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages:/home/ngocdai/.local/lib/python3.10/site-packages/movelladot_pc_sdk'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/diffdrive_arduino:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron')]), 'shell': False}
+[0.117036] (xsens_library) JobProgress: {'identifier': 'xsens_library', 'progress': 'cmake'}
+[0.117464] (xsens_library) JobProgress: {'identifier': 'xsens_library', 'progress': 'build'}
+[0.117622] (xsens_library) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ngocdai/lidar_ws/build/xsens_library', '--', '-j12', '-l12'], 'cwd': '/home/ngocdai/lidar_ws/build/xsens_library', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'ngocdai'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ngocdai/lidar_ws/install/diffdrive_arduino/lib:/home/ngocdai/lidar_ws/install/xsens_library/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/movella/lib'), ('HOME', '/home/ngocdai'), ('OLDPWD', '/home/ngocdai'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ngocdai/lidar_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'ngocdai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngocdai'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/iron/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/ngocdai/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NgocDai:@/tmp/.ICE-unix/1928,unix/NgocDai:/tmp/.ICE-unix/1928'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/678cb099_7130_4f56_bb97_73f7fa881d0a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DCM4C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1062'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/diffdrive_arduino:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/my_bleak:/home/ngocdai/lidar_ws/install/cpp_xsens:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('CMAKE_LIBRARY_PATH', '$HOME/movella/include:$CMAKE_LIBRARY_PATH'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngocdai/lidar_ws/build/xsens_library'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages:/home/ngocdai/.local/lib/python3.10/site-packages/movelladot_pc_sdk'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/diffdrive_arduino:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron')]), 'shell': False}
+[0.138157] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake_python: 2.0.3 (/opt/ros/iron/share/ament_cmake_python/cmake)\n'}
+[0.138544] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[0.163977] (xsens_library) StdoutLine: {'line': b'[100%] Built target xdpchandler\n'}
+[0.175246] (xsens_library) CommandEnded: {'returncode': 0}
+[0.199925] (-) TimerEvent: {}
+[0.201621] (xsens_library) JobProgress: {'identifier': 'xsens_library', 'progress': 'install'}
+[0.211011] (xsens_library) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ngocdai/lidar_ws/build/xsens_library'], 'cwd': '/home/ngocdai/lidar_ws/build/xsens_library', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'ngocdai'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ngocdai/lidar_ws/install/diffdrive_arduino/lib:/home/ngocdai/lidar_ws/install/xsens_library/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/movella/lib'), ('HOME', '/home/ngocdai'), ('OLDPWD', '/home/ngocdai'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ngocdai/lidar_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'ngocdai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngocdai'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/iron/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/ngocdai/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NgocDai:@/tmp/.ICE-unix/1928,unix/NgocDai:/tmp/.ICE-unix/1928'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/678cb099_7130_4f56_bb97_73f7fa881d0a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DCM4C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1062'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/diffdrive_arduino:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/my_bleak:/home/ngocdai/lidar_ws/install/cpp_xsens:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('CMAKE_LIBRARY_PATH', '$HOME/movella/include:$CMAKE_LIBRARY_PATH'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngocdai/lidar_ws/build/xsens_library'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages:/home/ngocdai/.local/lib/python3.10/site-packages/movelladot_pc_sdk'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/diffdrive_arduino:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron')]), 'shell': False}
+[0.217728] (xsens_library) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.218081] (xsens_library) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.218287] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/library_path.sh\n'}
+[0.218420] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/library_path.dsv\n'}
+[0.218678] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/include/xsens_library/conio.h\n'}
+[0.218774] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/include/xsens_library/user_settings.h\n'}
+[0.218869] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/include/xsens_library/xdpchandler.h\n'}
+[0.219008] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/share/ament_index/resource_index/package_run_dependencies/xsens_library\n'}
+[0.219137] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/share/ament_index/resource_index/parent_prefix_path/xsens_library\n'}
+[0.219264] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/ament_prefix_path.sh\n'}
+[0.219381] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/ament_prefix_path.dsv\n'}
+[0.219527] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/path.sh\n'}
+[0.219652] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/path.dsv\n'}
+[0.219765] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/local_setup.bash\n'}
+[0.219878] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/local_setup.sh\n'}
+[0.219989] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/local_setup.zsh\n'}
+[0.220102] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/local_setup.dsv\n'}
+[0.220181] (xsens_library) StdoutLine: {'line': b'-- Symlinking: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.dsv\n'}
+[0.229580] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/share/ament_index/resource_index/packages/xsens_library\n'}
+[0.229725] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.229813] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xsens_libraryConfig.cmake\n'}
+[0.229911] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xsens_libraryConfig-version.cmake\n'}
+[0.230052] (xsens_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.xml\n'}
+[0.230139] (xsens_library) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/lib/libxdpchandler.a\n'}
+[0.230264] (xsens_library) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xdpchandlerExport.cmake\n'}
+[0.230335] (xsens_library) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xdpchandlerExport-noconfig.cmake\n'}
+[0.232153] (xsens_library) CommandEnded: {'returncode': 0}
+[0.253905] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[0.278971] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[0.286077] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[0.296039] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.300000] (-) TimerEvent: {}
+[0.309056] (diffdrive_arduino) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.368065] (xsens_library) JobEnded: {'identifier': 'xsens_library', 'rc': 0}
+[0.400098] (-) TimerEvent: {}
+[0.425307] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[0.426313] (diffdrive_arduino) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500203] (-) TimerEvent: {}
+[0.541593] (diffdrive_arduino) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.600315] (-) TimerEvent: {}
+[0.667594] (diffdrive_arduino) StdoutLine: {'line': b'-- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[0.690640] (diffdrive_arduino) StdoutLine: {'line': b'-- Found xsens_library: 0.0.0 (/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake)\n'}
+[0.691078] (diffdrive_arduino) StdoutLine: {'line': b'-- Found nav_msgs: 5.0.0 (/opt/ros/iron/share/nav_msgs/cmake)\n'}
+[0.700386] (-) TimerEvent: {}
+[0.800594] (-) TimerEvent: {}
+[0.809727] (diffdrive_arduino) StdoutLine: {'line': b'-- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)\n'}
+[0.886766] (diffdrive_arduino) StdoutLine: {'line': b'-- Found yaml_cpp_vendor: 8.1.2 (/opt/ros/iron/share/yaml_cpp_vendor/cmake)\n'}
+[0.887317] (diffdrive_arduino) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.31.5 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)\n'}
+[0.890495] (diffdrive_arduino) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)\n'}
+[0.891552] (diffdrive_arduino) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.900668] (-) TimerEvent: {}
+[1.000892] (-) TimerEvent: {}
+[1.101394] (-) TimerEvent: {}
+[1.201692] (-) TimerEvent: {}
+[1.230181] (diffdrive_arduino) StdoutLine: {'line': b'-- Found hardware_interface: 3.18.0 (/opt/ros/iron/share/hardware_interface/cmake)\n'}
+[1.301770] (-) TimerEvent: {}
+[1.401988] (-) TimerEvent: {}
+[1.502228] (-) TimerEvent: {}
+[1.593580] (diffdrive_arduino) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 2.0.3 (/opt/ros/iron/share/ament_cmake_gtest/cmake)\n'}
+[1.602308] (-) TimerEvent: {}
+[1.648166] (diffdrive_arduino) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.667106] (diffdrive_arduino) StdoutLine: {'line': b'-- Generating done\n'}
+[1.669085] (diffdrive_arduino) StdoutLine: {'line': b'-- Build files have been written to: /home/ngocdai/lidar_ws/build/diffdrive_arduino\n'}
+[1.695721] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target diffdrive_arduino\x1b[0m\n'}
+[1.695905] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_rec\x1b[0m\n'}
+[1.695982] (diffdrive_arduino) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target imu_pub\x1b[0m\n'}
+[1.702380] (-) TimerEvent: {}
+[1.717179] (diffdrive_arduino) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/imu_pub.dir/src/imu_publisher.cpp.o\x1b[0m\n'}
+[1.717372] (diffdrive_arduino) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/imu_rec.dir/src/imu_receiver.cpp.o\x1b[0m\n'}
+[1.717453] (diffdrive_arduino) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/hardware/diffbot_system.cpp.o\x1b[0m\n'}
+[1.802502] (-) TimerEvent: {}
+[1.902800] (-) TimerEvent: {}
+[1.999332] (diffdrive_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngocdai/lidar_ws/src/diffdrive_arduino/src/imu_publisher.cpp:116:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcharacter constant too long for its type\n'}
+[1.999642] (diffdrive_arduino) StderrLine: {'line': b"  116 |                 imu_msgs.header.frame_id = \x1b[01;35m\x1b[K'base_link'\x1b[m\x1b[K;\n"}
+[1.999775] (diffdrive_arduino) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.002867] (-) TimerEvent: {}
+[2.103129] (-) TimerEvent: {}
+[2.203479] (-) TimerEvent: {}
+[2.303826] (-) TimerEvent: {}
+[2.404199] (-) TimerEvent: {}
+[2.504566] (-) TimerEvent: {}
+[2.604936] (-) TimerEvent: {}
+[2.705300] (-) TimerEvent: {}
+[2.805668] (-) TimerEvent: {}
+[2.906038] (-) TimerEvent: {}
+[3.006411] (-) TimerEvent: {}
+[3.106821] (-) TimerEvent: {}
+[3.207172] (-) TimerEvent: {}
+[3.307517] (-) TimerEvent: {}
+[3.407911] (-) TimerEvent: {}
+[3.508278] (-) TimerEvent: {}
+[3.608665] (-) TimerEvent: {}
+[3.709042] (-) TimerEvent: {}
+[3.809401] (-) TimerEvent: {}
+[3.909768] (-) TimerEvent: {}
+[4.010139] (-) TimerEvent: {}
+[4.020217] (diffdrive_arduino) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ngocdai/lidar_ws/src/diffdrive_arduino/src/imu_publisher.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid XsensPublisher::GetData()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.020484] (diffdrive_arduino) StderrLine: {'line': b"\x1b[01m\x1b[K/home/ngocdai/lidar_ws/src/diffdrive_arduino/src/imu_publisher.cpp:116:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Koverflow in conversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kchar\x1b[m\x1b[K\xe2\x80\x99 changes value from \xe2\x80\x98\x1b[01m\x1b[K1818848875\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[K'k'\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow\x07-Woverflow\x1b]8;;\x07\x1b[m\x1b[K]\n"}
+[4.110246] (-) TimerEvent: {}
+[4.210599] (-) TimerEvent: {}
+[4.310955] (-) TimerEvent: {}
+[4.411299] (-) TimerEvent: {}
+[4.511625] (-) TimerEvent: {}
+[4.611971] (-) TimerEvent: {}
+[4.712351] (-) TimerEvent: {}
+[4.812707] (-) TimerEvent: {}
+[4.913049] (-) TimerEvent: {}
+[5.013389] (-) TimerEvent: {}
+[5.113731] (-) TimerEvent: {}
+[5.214046] (-) TimerEvent: {}
+[5.308494] (diffdrive_arduino) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_arduino.so\x1b[0m\n'}
+[5.314136] (-) TimerEvent: {}
+[5.414460] (-) TimerEvent: {}
+[5.457962] (diffdrive_arduino) StdoutLine: {'line': b'[ 66%] Built target diffdrive_arduino\n'}
+[5.514574] (-) TimerEvent: {}
+[5.615367] (-) TimerEvent: {}
+[5.675675] (diffdrive_arduino) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable imu_pub\x1b[0m\n'}
+[5.715523] (-) TimerEvent: {}
+[5.815821] (-) TimerEvent: {}
+[5.916186] (-) TimerEvent: {}
+[5.958849] (diffdrive_arduino) StdoutLine: {'line': b'[ 83%] Built target imu_pub\n'}
+[6.016299] (-) TimerEvent: {}
+[6.116650] (-) TimerEvent: {}
+[6.216931] (-) TimerEvent: {}
+[6.317212] (-) TimerEvent: {}
+[6.417490] (-) TimerEvent: {}
+[6.517771] (-) TimerEvent: {}
+[6.618048] (-) TimerEvent: {}
+[6.718324] (-) TimerEvent: {}
+[6.818601] (-) TimerEvent: {}
+[6.918879] (-) TimerEvent: {}
+[7.019157] (-) TimerEvent: {}
+[7.119440] (-) TimerEvent: {}
+[7.219861] (-) TimerEvent: {}
+[7.320140] (-) TimerEvent: {}
+[7.420425] (-) TimerEvent: {}
+[7.520715] (-) TimerEvent: {}
+[7.621019] (-) TimerEvent: {}
+[7.646143] (diffdrive_arduino) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable imu_rec\x1b[0m\n'}
+[7.721130] (-) TimerEvent: {}
+[7.821415] (-) TimerEvent: {}
+[7.917202] (diffdrive_arduino) StdoutLine: {'line': b'[100%] Built target imu_rec\n'}
+[7.921489] (-) TimerEvent: {}
+[7.927851] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[7.959135] (diffdrive_arduino) JobProgress: {'identifier': 'diffdrive_arduino', 'progress': 'install'}
+[7.959572] (diffdrive_arduino) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ngocdai/lidar_ws/build/diffdrive_arduino'], 'cwd': '/home/ngocdai/lidar_ws/build/diffdrive_arduino', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'ngocdai'), ('LC_TIME', 'vi_VN'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ngocdai/lidar_ws/install/diffdrive_arduino/lib:/home/ngocdai/lidar_ws/install/xsens_library/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib:/usr/local/movella/lib'), ('HOME', '/home/ngocdai'), ('OLDPWD', '/home/ngocdai'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('QT_STYLE_OVERRIDE', 'kvantum'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN'), ('SYSTEMD_EXEC_PID', '2144'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ngocdai/lidar_ws/install'), ('ROS_DISTRO', 'iron'), ('LOGNAME', 'ngocdai'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ngocdai'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', ':/opt/ros/iron/share/turtlebot3_gazebo/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('PATH', '/opt/ros/iron/bin:/home/ngocdai/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/NgocDai:@/tmp/.ICE-unix/1928,unix/NgocDai:/tmp/.ICE-unix/1928'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/678cb099_7130_4f56_bb97_73f7fa881d0a'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'vi_VN'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.DCM4C2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1062'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/diffdrive_arduino:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/my_bleak:/home/ngocdai/lidar_ws/install/cpp_xsens:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN'), ('LC_IDENTIFICATION', 'vi_VN'), ('CMAKE_LIBRARY_PATH', '$HOME/movella/include:$CMAKE_LIBRARY_PATH'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ngocdai/lidar_ws/build/diffdrive_arduino'), ('TURTLEBOT3_MODEL', 'waffle'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages:/home/ngocdai/.local/lib/python3.10/site-packages/movelladot_pc_sdk'), ('LC_NUMERIC', 'vi_VN'), ('LC_PAPER', 'vi_VN'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/diffdrive_arduino:/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron')]), 'shell': False}
+[7.967247] (diffdrive_arduino) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.967436] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/ngocdai/lidar_ws/install/diffdrive_arduino/lib/diffdrive_arduino/imu_pub\n'}
+[7.970197] (diffdrive_arduino) StdoutLine: {'line': b'-- Set runtime path of "/home/ngocdai/lidar_ws/install/diffdrive_arduino/lib/diffdrive_arduino/imu_pub" to ""\n'}
+[7.970356] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/ngocdai/lidar_ws/install/diffdrive_arduino/lib/diffdrive_arduino/imu_rec\n'}
+[7.978365] (diffdrive_arduino) StdoutLine: {'line': b'-- Set runtime path of "/home/ngocdai/lidar_ws/install/diffdrive_arduino/lib/diffdrive_arduino/imu_rec" to ""\n'}
+[7.978522] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/diffdrive_arduino.xml\n'}
+[7.978645] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/include/diffdrive_arduino\n'}
+[7.978748] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino\n'}
+[7.978844] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h\n'}
+[7.978953] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/tempCodeRunnerFile.hpp\n'}
+[7.979064] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp\n'}
+[7.979130] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp\n'}
+[7.979204] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp\n'}
+[7.979283] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch\n'}
+[7.979344] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py\n'}
+[7.979406] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control\n'}
+[7.979489] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro\n'}
+[7.979557] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf\n'}
+[7.979608] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro\n'}
+[7.979656] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro\n'}
+[7.979703] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro\n'}
+[7.979751] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz\n'}
+[7.979800] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz\n'}
+[7.979848] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz\n'}
+[7.979895] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch\n'}
+[7.979942] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py\n'}
+[7.979989] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/config\n'}
+[7.980035] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml\n'}
+[7.980082] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/ekf.yaml\n'}
+[7.980129] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/ngocdai/lidar_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so\n'}
+[7.980853] (diffdrive_arduino) StdoutLine: {'line': b'-- Set runtime path of "/home/ngocdai/lidar_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so" to ""\n'}
+[7.980925] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh\n'}
+[7.980997] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv\n'}
+[7.981058] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino\n'}
+[7.981176] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino\n'}
+[7.981352] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh\n'}
+[7.981452] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv\n'}
+[7.981538] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh\n'}
+[7.981618] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv\n'}
+[7.981695] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash\n'}
+[7.981746] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh\n'}
+[7.981795] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh\n'}
+[7.981856] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv\n'}
+[7.981921] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv\n'}
+[7.981984] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino\n'}
+[7.982065] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino\n'}
+[7.982132] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake\n'}
+[7.982217] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake\n'}
+[7.982270] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.982319] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.982367] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake\n'}
+[7.982424] (diffdrive_arduino) StdoutLine: {'line': b'-- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake\n'}
+[7.982473] (diffdrive_arduino) StdoutLine: {'line': b'-- Installing: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml\n'}
+[7.984224] (diffdrive_arduino) CommandEnded: {'returncode': 0}
+[8.021572] (-) TimerEvent: {}
+[8.121877] (-) TimerEvent: {}
+[8.147447] (diffdrive_arduino) JobEnded: {'identifier': 'diffdrive_arduino', 'rc': 0}
+[8.148169] (-) EventReactorShutdown: {}

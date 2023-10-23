@@ -1,0 +1,11 @@
+[35m[1mConsolidate compiler generated dependencies of target xsens_receive[0m
+[ 50%] Built target xsens_client
+[ 75%] [32mBuilding CXX object CMakeFiles/xsens_receive.dir/src/xsens_receive_data.cpp.o[0m
+In file included from [01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xsens_receive_data.cpp:8[m[K:
+[01m[K/home/ngocdai/lidar_ws/src/cpp_xsens/src/xdpchandler.h:4:10:[m[K [01;31m[Kfatal error: [m[Kmovelladot_pc_sdk.h: No such file or directory
+    4 | #include [01;31m[K<movelladot_pc_sdk.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/xsens_receive.dir/build.make:76: CMakeFiles/xsens_receive.dir/src/xsens_receive_data.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/xsens_receive.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

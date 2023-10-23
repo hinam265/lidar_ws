@@ -1,0 +1,44 @@
+[0.005s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[0.033s] [35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[1.925s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:164:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.925s]   164 | }
+[1.925s]       |  [01;31m[K^[m[K
+[1.925s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:17:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.925s]    17 | [01;36m[K{[m[K
+[1.925s]       | [01;36m[K^[m[K
+[1.932s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In constructor ‘[01m[KXsensPublisher::XsensPublisher()[m[K’:
+[1.932s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:22:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.932s]    22 |             [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("imu", 10);
+[1.932s]       |             [01;31m[K^~~~~~~~~~[m[K
+[1.932s]       |             [32m[Krmw_publisher_t[m[K
+[1.940s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:23:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.941s]    23 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[1.941s]       |             [01;31m[K^~~~~~[m[K
+[1.941s]       |             [32m[Ktimer_t[m[K
+[1.941s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:24:47:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KXsensPublisher[m[K’
+[1.941s]    24 |             500ms, std::bind(&XsensPublisher::[01;31m[Ktimer_callback[m[K, this));
+[1.941s]       |                                               [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.943s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kvoid XsensPublisher::GetData()[m[K’:
+[1.943s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:97:37:[m[K [01;35m[Kwarning: [m[Kempty parentheses were disambiguated as a function declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wvexing-parse-Wvexing-parse]8;;[m[K]
+[1.943s]    97 |         bool scanForBluetoothDevices[01;35m[K()[m[K
+[1.943s]       |                                     [01;35m[K^~[m[K
+[1.943s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:97:37:[m[K [01;36m[Knote: [m[Kremove parentheses to default-initialize a variable
+[1.943s]    97 |         bool scanForBluetoothDevices[01;36m[K()[m[K
+[1.944s]       |                                     [01;36m[K^~[m[K
+[1.944s]       |                                     [31m[K--[m[K
+[1.944s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:97:37:[m[K [01;36m[Knote: [m[Kor replace parentheses with braces to value-initialize a variable
+[1.944s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:98:9:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[1.944s]    98 |         [01;31m[K{[m[K
+[1.944s]       |         [01;31m[K^[m[K
+[1.944s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:139:9:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[1.944s]   139 |         [01;31m[K{[m[K
+[1.944s]       |         [01;31m[K^[m[K
+[1.948s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K At global scope:
+[1.948s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:164:2:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[1.948s]   164 | }
+[1.948s]       |  [01;31m[K^[m[K
+[2.683s] gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+[2.683s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+[2.684s] gmake: *** [Makefile:146: all] Error 2
+[2.685s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '2': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12

@@ -1,0 +1,20 @@
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kvoid XsensPublisher::GetData()[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:40:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass rclcpp::Time[m[K’ has no member named ‘[01m[Kto_msg[m[K’
+   40 |              imu_msgs.header.stamp = this->get_clock()->now().[01;31m[Kto_msg[m[K();
+      |                                                               [01;31m[K^~~~~~[m[K
+
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_receiver.cpp:[m[K In member function ‘[01m[Kvoid XsensReceiver::callback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_receiver.cpp:35:36:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} in assignment
+   35 |         current_time = [01;31m[Kmsg->header.stamp[m[K;
+      |                        [01;31m[K~~~~~~~~~~~~^~~~~[m[K
+      |                                    [01;31m[K|[m[K
+      |                                    [01;31m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type {aka builtin_interfaces::msg::Time_<std::allocator<void> >}[m[K
+[01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_receiver.cpp:41:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kdt[m[K’ was not declared in this scope
+   41 |         v_x = v_x + dv_x * [01;31m[Kdt[m[K;
+      |                            [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/xsens_pub.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/xsens_rec.dir/build.make:76: CMakeFiles/xsens_rec.dir/src/xsens_data_receiver.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/xsens_rec.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

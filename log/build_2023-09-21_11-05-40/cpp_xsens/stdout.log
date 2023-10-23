@@ -1,0 +1,25 @@
+[35m[1mConsolidate compiler generated dependencies of target xsens_receive[0m
+[ 50%] Built target xsens_client
+[ 75%] [32mBuilding CXX object CMakeFiles/xsens_receive.dir/src/xsens_receive_data.cpp.o[0m
+[100%] [32m[1mLinking CXX executable xsens_receive[0m
+[100%] Built target xsens_receive
+-- Install configuration: ""
+-- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/lib/cpp_xsens/xsens_receive
+-- Set runtime path of "/home/ngocdai/lidar_ws/install/cpp_xsens/lib/cpp_xsens/xsens_receive" to ""
+-- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/lib/cpp_xsens/xsens_client
+-- Set runtime path of "/home/ngocdai/lidar_ws/install/cpp_xsens/lib/cpp_xsens/xsens_client" to ""
+-- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/ament_index/resource_index/package_run_dependencies/cpp_xsens
+-- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/ament_index/resource_index/parent_prefix_path/cpp_xsens
+-- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/environment/ament_prefix_path.sh
+-- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/environment/ament_prefix_path.dsv
+-- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/environment/path.sh
+-- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/environment/path.dsv
+-- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/local_setup.bash
+-- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/local_setup.sh
+-- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/local_setup.zsh
+-- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/local_setup.dsv
+-- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/package.dsv
+-- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/ament_index/resource_index/packages/cpp_xsens
+-- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/cmake/cpp_xsensConfig.cmake
+-- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/cmake/cpp_xsensConfig-version.cmake
+-- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/package.xml

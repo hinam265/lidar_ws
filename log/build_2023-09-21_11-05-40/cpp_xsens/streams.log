@@ -1,0 +1,29 @@
+[0.008s] Invoking command in '/home/ngocdai/lidar_ws/build/cpp_xsens': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/cpp_xsens -- -j12 -l12
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target xsens_receive[0m
+[0.044s] [ 50%] Built target xsens_client
+[0.045s] [ 75%] [32mBuilding CXX object CMakeFiles/xsens_receive.dir/src/xsens_receive_data.cpp.o[0m
+[3.246s] [100%] [32m[1mLinking CXX executable xsens_receive[0m
+[3.354s] [100%] Built target xsens_receive
+[3.364s] Invoked command in '/home/ngocdai/lidar_ws/build/cpp_xsens' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/cpp_xsens -- -j12 -l12
+[3.385s] Invoking command in '/home/ngocdai/lidar_ws/build/cpp_xsens': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/cpp_xsens
+[3.390s] -- Install configuration: ""
+[3.390s] -- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/lib/cpp_xsens/xsens_receive
+[3.391s] -- Set runtime path of "/home/ngocdai/lidar_ws/install/cpp_xsens/lib/cpp_xsens/xsens_receive" to ""
+[3.391s] -- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/lib/cpp_xsens/xsens_client
+[3.393s] -- Set runtime path of "/home/ngocdai/lidar_ws/install/cpp_xsens/lib/cpp_xsens/xsens_client" to ""
+[3.393s] -- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/ament_index/resource_index/package_run_dependencies/cpp_xsens
+[3.393s] -- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/ament_index/resource_index/parent_prefix_path/cpp_xsens
+[3.394s] -- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/environment/ament_prefix_path.sh
+[3.394s] -- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/environment/ament_prefix_path.dsv
+[3.394s] -- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/environment/path.sh
+[3.394s] -- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/environment/path.dsv
+[3.394s] -- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/local_setup.bash
+[3.394s] -- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/local_setup.sh
+[3.394s] -- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/local_setup.zsh
+[3.394s] -- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/local_setup.dsv
+[3.394s] -- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/package.dsv
+[3.394s] -- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/ament_index/resource_index/packages/cpp_xsens
+[3.394s] -- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/cmake/cpp_xsensConfig.cmake
+[3.394s] -- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/cmake/cpp_xsensConfig-version.cmake
+[3.395s] -- Installing: /home/ngocdai/lidar_ws/install/cpp_xsens/share/cpp_xsens/package.xml
+[3.396s] Invoked command in '/home/ngocdai/lidar_ws/build/cpp_xsens' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/cpp_xsens

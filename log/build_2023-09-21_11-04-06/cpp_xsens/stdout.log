@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target xsens_receive[0m
+[ 50%] Built target xsens_client
+[ 75%] [32mBuilding CXX object CMakeFiles/xsens_receive.dir/src/xsens_receive_data.cpp.o[0m

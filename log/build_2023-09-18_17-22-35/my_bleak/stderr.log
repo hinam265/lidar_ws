@@ -1,0 +1,5 @@
+  File "/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages/my_bleak/bleak_node.py", line 34
+    await node.connect()
+    ^^^^^^^^^^^^^^^^^^^^
+SyntaxError: 'await' outside async function
+

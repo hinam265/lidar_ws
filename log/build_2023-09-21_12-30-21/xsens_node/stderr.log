@@ -1,0 +1,8 @@
+In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:8[m[K:
+[01m[K/home/ngocdai/lidar_ws/install/xsens_library/include/xsens_library/xdpchandler.h:4:10:[m[K [01;31m[Kfatal error: [m[Kmovelladot_pc_sdk.h: No such file or directory
+    4 | #include [01;31m[K<movelladot_pc_sdk.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

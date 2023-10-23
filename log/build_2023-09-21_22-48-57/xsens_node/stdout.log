@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target odom_pub[0m
+[ 66%] Built target xsens_pub
+[ 66%] Built target xsens_rec
+[ 83%] [32mBuilding CXX object CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o[0m

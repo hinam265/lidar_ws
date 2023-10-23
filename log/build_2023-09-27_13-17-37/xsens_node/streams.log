@@ -1,0 +1,101 @@
+[0.006s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[0.026s] -- Found ament_cmake_python: 2.0.3 (/opt/ros/iron/share/ament_cmake_python/cmake)
+[0.026s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.139s] -- Found rclcpp: 21.0.3 (/opt/ros/iron/share/rclcpp/cmake)
+[0.162s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.168s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.190s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.324s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.325s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.437s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.574s] -- Found std_msgs: 5.0.0 (/opt/ros/iron/share/std_msgs/cmake)
+[0.601s] -- Found xsens_library: 0.0.0 (/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake)
+[0.601s] -- Found nav_msgs: 5.0.0 (/opt/ros/iron/share/nav_msgs/cmake)
+[0.740s] -- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.830s] -- Found yaml_cpp_vendor: 8.1.2 (/opt/ros/iron/share/yaml_cpp_vendor/cmake)
+[0.831s] -- Found tf2_geometry_msgs: 0.31.5 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)
+[0.834s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[0.835s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.211s] -- Found ament_lint_auto: 0.14.2 (/opt/ros/iron/share/ament_lint_auto/cmake)
+[1.269s] -- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)
+[1.287s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.287s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.287s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.292s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.292s] -- Configured cppcheck include dirs: /home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node
+[1.292s] -- Configured cppcheck exclude dirs and/or files: 
+[1.292s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.292s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.293s] -- Added test 'lint_cmake' to check CMake code style
+[1.293s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.294s] -- Added test 'uncrustify' to check C / C++ code style
+[1.294s] -- Configured uncrustify additional arguments: 
+[1.294s] -- Added test 'xmllint' to check XML markup files
+[1.295s] -- Configuring done
+[1.312s] -- Generating done
+[1.314s] -- Build files have been written to: /home/ngocdai/lidar_ws/build/xsens_node
+[1.335s] [35m[1mConsolidate compiler generated dependencies of target xsens_rec[0m
+[1.335s] [35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[1.335s] [35m[1mConsolidate compiler generated dependencies of target odom_pub[0m
+[1.350s] [ 50%] Built target xsens_rec
+[1.350s] [ 50%] [32mBuilding CXX object CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o[0m
+[1.351s] [ 83%] Built target xsens_pub
+[1.573s] In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:3[m[K:
+[1.573s] [01m[K/opt/ros/iron/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.573s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[1.573s]       |  [01;35m[K^~~~~~~[m[K
+[3.625s] In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:1[m[K:
+[3.625s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:32:43:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[3.625s]    32 |     rclcpp::Publisher<geometry_msgs::msg::[01;31m[KPoseStamped[m[K>::SharedPtr odometry_publisher_;
+[3.625s]       |                                           [01;31m[K^~~~~~~~~~~[m[K
+[3.625s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:32:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.625s]    32 |     rclcpp::Publisher<geometry_msgs::msg::PoseStamped[01;31m[K>[m[K::SharedPtr odometry_publisher_;
+[3.626s]       |                                                      [01;31m[K^[m[K
+[3.626s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:32:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.626s]    32 |     rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::[01;31m[KSharedPtr[m[K odometry_publisher_;
+[3.626s]       |                                                         [01;31m[K^~~~~~~~~[m[K
+[3.626s]       |                                                                  [32m[K;[m[K
+[3.636s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:32:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kodometry_publisher_[m[K’ does not name a type
+[3.636s]    32 |     rclcpp::Publisher<geometry_msgs::msg::PoseStamped>::SharedPtr [01;31m[Kodometry_publisher_[m[K;
+[3.636s]       |                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.650s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:[m[K In constructor ‘[01m[KOdometryNode::OdometryNode()[m[K’:
+[3.650s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:22:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kodometry_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcount_publishers[m[K’?
+[3.650s]    22 |         [01;31m[Kodometry_publisher_[m[K = create_publisher<geometry_msgs::msg::PoseStamped>(
+[3.651s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[3.651s]       |         [32m[Kcount_publishers[m[K
+[3.651s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:22:68:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’
+[3.651s]    22 |         odometry_publisher_ = create_publisher<geometry_msgs::msg::[01;31m[KPoseStamped[m[K>(
+[3.651s]       |                                                                    [01;31m[K^~~~~~~~~~~[m[K
+[3.651s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:22:80:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KOdometryNode::create_publisher<<expression error> >(const char [10], int)[m[K’
+[3.651s]    22 |         odometry_publisher_ = [01;31m[Kcreate_publisher<geometry_msgs::msg::PoseStamped>([m[K
+[3.651s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.651s]    23 | [01;31m[K            "/odometry", 10[m[K
+[3.651s]       |             [01;31m[K~~~~~~~~~~~~~~~[m[K                                                     
+[3.651s]    24 | [01;31m[K        )[m[K;
+[3.651s]       |         [01;31m[K~[m[K                                                                       
+[3.652s] In file included from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.652s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.652s]                  from [01m[K/opt/ros/iron/include/rclcpp/rclcpp/rclcpp.hpp:167[m[K,
+[3.652s]                  from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:4[m[K,
+[3.652s]                  from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:1[m[K:
+[3.652s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:196:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[3.652s]   196 |   [01;36m[Kcreate_publisher[m[K(
+[3.652s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[3.652s] [01m[K/opt/ros/iron/include/rclcpp/rclcpp/node.hpp:196:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.652s] In file included from [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:1[m[K:
+[3.652s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/include/xsens_node/odometry.h:22:80:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.652s]    22 |         odometry_publisher_ = [01;31m[Kcreate_publisher<geometry_msgs::msg::PoseStamped>([m[K
+[3.652s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.652s]    23 | [01;31m[K            "/odometry", 10[m[K
+[3.652s]       |             [01;31m[K~~~~~~~~~~~~~~~[m[K                                                     
+[3.652s]    24 | [01;31m[K        )[m[K;
+[3.652s]       |         [01;31m[K~[m[K                                                                       
+[3.740s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:[m[K In member function ‘[01m[Kvoid OdometryNode::imuCallback(sensor_msgs::msg::Imu_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.740s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/odometry_publisher.cpp:9:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.740s]     9 | void OdometryNode::imuCallback([01;35m[Kconst sensor_msgs::msg::Imu::SharedPtr msg[m[K)
+[3.740s]       |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[5.574s] gmake[2]: *** [CMakeFiles/odom_pub.dir/build.make:76: CMakeFiles/odom_pub.dir/src/odometry_publisher.cpp.o] Error 1
+[5.574s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/odom_pub.dir/all] Error 2
+[5.574s] gmake: *** [Makefile:146: all] Error 2
+[5.576s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '2': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12

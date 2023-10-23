@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[100%] [32m[1mLinking CXX executable xsens_pub[0m
+/usr/bin/ld: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o: warning: relocation against `_ZN14XsensPublisher11xdpcHandlerE' in read-only section `.text._ZN14XsensPublisher23scanForBluetoothDevicesEv[_ZN14XsensPublisher23scanForBluetoothDevicesEv]'
+/usr/bin/ld: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o: in function `XsensPublisher::GetData()::{lambda(int)#1}::operator()(int) const':
+xsens_data_publisher.cpp:(.text._ZZN14XsensPublisher7GetDataEvENKUliE_clEi[_ZZN14XsensPublisher7GetDataEvENKUliE_clEi]+0x55): undefined reference to `XsensPublisher::xdpcHandler'
+/usr/bin/ld: xsens_data_publisher.cpp:(.text._ZZN14XsensPublisher7GetDataEvENKUliE_clEi[_ZZN14XsensPublisher7GetDataEvENKUliE_clEi]+0xee): undefined reference to `XsensPublisher::xdpcHandler'
+/usr/bin/ld: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o: in function `XsensPublisher::GetData()':
+xsens_data_publisher.cpp:(.text._ZN14XsensPublisher7GetDataEv[_ZN14XsensPublisher7GetDataEv]+0x5d): undefined reference to `XsensPublisher::xdpcHandler'
+/usr/bin/ld: xsens_data_publisher.cpp:(.text._ZN14XsensPublisher7GetDataEv[_ZN14XsensPublisher7GetDataEv]+0x94): undefined reference to `XsensPublisher::xdpcHandler'
+/usr/bin/ld: xsens_data_publisher.cpp:(.text._ZN14XsensPublisher7GetDataEv[_ZN14XsensPublisher7GetDataEv]+0x125): undefined reference to `XsensPublisher::xdpcHandler'
+/usr/bin/ld: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o:xsens_data_publisher.cpp:(.text._ZN14XsensPublisher23scanForBluetoothDevicesEv[_ZN14XsensPublisher23scanForBluetoothDevicesEv]+0x28): more undefined references to `XsensPublisher::xdpcHandler' follow
+/usr/bin/ld: warning: creating DT_TEXTREL in a PIE
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:191: xsens_pub] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

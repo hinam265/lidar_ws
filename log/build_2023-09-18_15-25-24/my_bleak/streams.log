@@ -1,0 +1,50 @@
+[0.551s] Invoking command in '/home/ngocdai/lidar_ws/src/my_bleak': PYTHONPATH=/home/ngocdai/lidar_ws/build/my_bleak/prefix_override:/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_bleak build --build-base /home/ngocdai/lidar_ws/build/my_bleak/build install --record /home/ngocdai/lidar_ws/build/my_bleak/install.log --single-version-externally-managed
+[0.707s] running egg_info
+[0.707s] creating ../../build/my_bleak/my_bleak.egg-info
+[0.720s] writing ../../build/my_bleak/my_bleak.egg-info/PKG-INFO
+[0.720s] writing dependency_links to ../../build/my_bleak/my_bleak.egg-info/dependency_links.txt
+[0.721s] writing requirements to ../../build/my_bleak/my_bleak.egg-info/requires.txt
+[0.721s] writing top-level names to ../../build/my_bleak/my_bleak.egg-info/top_level.txt
+[0.721s] writing manifest file '../../build/my_bleak/my_bleak.egg-info/SOURCES.txt'
+[0.747s] reading manifest file '../../build/my_bleak/my_bleak.egg-info/SOURCES.txt'
+[0.748s] writing manifest file '../../build/my_bleak/my_bleak.egg-info/SOURCES.txt'
+[0.748s] running build
+[0.748s] running build_py
+[0.748s] creating /home/ngocdai/lidar_ws/build/my_bleak/build
+[0.748s] creating /home/ngocdai/lidar_ws/build/my_bleak/build/lib
+[0.748s] creating /home/ngocdai/lidar_ws/build/my_bleak/build/lib/my_bleak
+[0.748s] copying my_bleak/__init__.py -> /home/ngocdai/lidar_ws/build/my_bleak/build/lib/my_bleak
+[0.748s] copying my_bleak/bleak_node.py -> /home/ngocdai/lidar_ws/build/my_bleak/build/lib/my_bleak
+[0.749s] running install
+[0.749s] /home/ngocdai/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[0.749s] !!
+[0.749s] 
+[0.749s]         ********************************************************************************
+[0.749s]         Please avoid running ``setup.py`` directly.
+[0.749s]         Instead, use pypa/build, pypa/installer or other
+[0.749s]         standards-based tools.
+[0.749s] 
+[0.749s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[0.749s]         ********************************************************************************
+[0.749s] 
+[0.749s] !!
+[0.749s]   self.initialize_options()
+[0.753s] running install_lib
+[0.767s] creating /home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages/my_bleak
+[0.767s] copying /home/ngocdai/lidar_ws/build/my_bleak/build/lib/my_bleak/__init__.py -> /home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages/my_bleak
+[0.767s] copying /home/ngocdai/lidar_ws/build/my_bleak/build/lib/my_bleak/bleak_node.py -> /home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages/my_bleak
+[0.767s] byte-compiling /home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages/my_bleak/__init__.py to __init__.cpython-310.pyc
+[0.768s] byte-compiling /home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages/my_bleak/bleak_node.py to bleak_node.cpython-310.pyc
+[0.768s] running install_data
+[0.782s] creating /home/ngocdai/lidar_ws/install/my_bleak/share
+[0.782s] creating /home/ngocdai/lidar_ws/install/my_bleak/share/ament_index
+[0.783s] creating /home/ngocdai/lidar_ws/install/my_bleak/share/ament_index/resource_index
+[0.783s] creating /home/ngocdai/lidar_ws/install/my_bleak/share/ament_index/resource_index/packages
+[0.783s] copying resource/my_bleak -> /home/ngocdai/lidar_ws/install/my_bleak/share/ament_index/resource_index/packages
+[0.783s] creating /home/ngocdai/lidar_ws/install/my_bleak/share/my_bleak
+[0.783s] copying package.xml -> /home/ngocdai/lidar_ws/install/my_bleak/share/my_bleak
+[0.783s] running install_egg_info
+[0.795s] Copying ../../build/my_bleak/my_bleak.egg-info to /home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages/my_bleak-0.0.0-py3.10.egg-info
+[0.796s] running install_scripts
+[0.907s] writing list of installed files to '/home/ngocdai/lidar_ws/build/my_bleak/install.log'
+[0.928s] Invoked command in '/home/ngocdai/lidar_ws/src/my_bleak' returned '0': PYTHONPATH=/home/ngocdai/lidar_ws/build/my_bleak/prefix_override:/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_bleak build --build-base /home/ngocdai/lidar_ws/build/my_bleak/build install --record /home/ngocdai/lidar_ws/build/my_bleak/install.log --single-version-externally-managed

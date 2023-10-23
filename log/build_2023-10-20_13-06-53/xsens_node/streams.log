@@ -1,0 +1,22 @@
+[0.049s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[0.093s] [35m[1mConsolidate compiler generated dependencies of target xsens_rec[0m
+[0.114s] [ 75%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[0.114s] [ 75%] Built target xsens_rec
+[3.921s] [100%] [32m[1mLinking CXX executable xsens_pub[0m
+[4.214s] [100%] Built target xsens_pub
+[4.224s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '0': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[4.254s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/xsens_node
+[4.260s] -- Install configuration: ""
+[4.261s] -- Execute custom install script
+[4.261s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/lib/xsens_node//xsens_pub
+[4.261s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/xsens_node/lib/xsens_node//xsens_rec
+[4.261s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[4.261s]   ament_cmake_symlink_install_directory() can't find
+[4.261s]   '/home/ngocdai/lidar_ws/src/xsens_node/launch'
+[4.261s] Call Stack (most recent call first):
+[4.262s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:317 (ament_cmake_symlink_install_directory)
+[4.262s]   cmake_install.cmake:46 (include)
+[4.262s] 
+[4.262s] [0m
+[4.263s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '1': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/xsens_node

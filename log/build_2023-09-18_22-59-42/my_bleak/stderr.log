@@ -1,0 +1,5 @@
+  File "/home/ngocdai/lidar_ws/install/my_bleak/lib/python3.10/site-packages/my_bleak/bleak_client.py", line 25
+    imu_msg.header.stamp = self.get_clock()_now()
+                                           ^^^^
+SyntaxError: invalid syntax
+

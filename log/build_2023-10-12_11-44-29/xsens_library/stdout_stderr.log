@@ -1,0 +1,53 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/xdpchandler.dir/src/xdpchandler.cpp.o[0m
+In file included from [01m[K/usr/local/movella/include/xstypes/xssdidata.h:35[m[K,
+                 from [01m[K/usr/local/movella/include/xstypes/xsdatapacket.h:42[m[K,
+                 from [01m[K/usr/local/movella/include/xstypes/xsdatapacketptrarray.h:34[m[K,
+                 from [01m[K/usr/local/movella/include/movelladot_pc_sdk/xsdotcallbackplainc.h:22[m[K,
+                 from [01m[K/usr/local/movella/include/movelladot_pc_sdk/xsdotcallback.h:19[m[K,
+                 from [01m[K/usr/local/movella/include/movelladot_pc_sdk.h:18[m[K,
+                 from [01m[K/home/ngocdai/lidar_ws/src/xsens_library/include/xsens_library/xdpchandler.h:4[m[K,
+                 from [01m[K/home/ngocdai/lidar_ws/src/xsens_library/src/xdpchandler.cpp:1[m[K:
+[01m[K/usr/local/movella/include/xstypes/xsquaternion.h:73:17:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   73 |                 [01;35m[K{[m[K
+      |                 [01;35m[K^[m[K
+In file included from [01m[K/usr/local/movella/include/xstypes/xsdatapacket.h:46[m[K,
+                 from [01m[K/usr/local/movella/include/xstypes/xsdatapacketptrarray.h:34[m[K,
+                 from [01m[K/usr/local/movella/include/movelladot_pc_sdk/xsdotcallbackplainc.h:22[m[K,
+                 from [01m[K/usr/local/movella/include/movelladot_pc_sdk/xsdotcallback.h:19[m[K,
+                 from [01m[K/usr/local/movella/include/movelladot_pc_sdk.h:18[m[K,
+                 from [01m[K/home/ngocdai/lidar_ws/src/xsens_library/include/xsens_library/xdpchandler.h:4[m[K,
+                 from [01m[K/home/ngocdai/lidar_ws/src/xsens_library/src/xdpchandler.cpp:1[m[K:
+[01m[K/usr/local/movella/include/xstypes/xseuler.h:177:17:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  177 |                 [01;35m[K{[m[K
+      |                 [01;35m[K^[m[K
+[01m[K/usr/local/movella/include/xstypes/xseuler.h:183:17:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  183 |                 [01;35m[K{[m[K
+      |                 [01;35m[K^[m[K
+[100%] [32m[1mLinking CXX static library libxdpchandler.a[0m
+[100%] Built target xdpchandler
+-- Install configuration: ""
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/library_path.sh
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/library_path.dsv
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/include/xsens_library
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/include/xsens_library/user_settings.h
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/include/xsens_library/conio.h
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/include/xsens_library/xdpchandler.h
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/lib/libxdpchandler.a
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/ament_index/resource_index/package_run_dependencies/xsens_library
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/ament_index/resource_index/parent_prefix_path/xsens_library
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/path.sh
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/path.dsv
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/local_setup.bash
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/local_setup.sh
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/local_setup.zsh
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/local_setup.dsv
+-- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.dsv
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/ament_index/resource_index/packages/xsens_library
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xdpchandlerExport.cmake
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xdpchandlerExport-noconfig.cmake
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xsens_libraryConfig.cmake
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake/xsens_libraryConfig-version.cmake
+-- Up-to-date: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/package.xml

@@ -1,0 +1,42 @@
+[0.005s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_node': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12
+[0.034s] [35m[1mConsolidate compiler generated dependencies of target xsens_pub[0m
+[0.046s] [ 50%] [32mBuilding CXX object CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o[0m
+[0.199s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:87:1:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[0.200s]    87 | 
+[0.200s]       | [01;31m[K^[m[K
+[1.945s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:31:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.946s]    31 |             RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Publishing:";
+[1.946s]       |                        [01;31m[K^[m[K
+[1.946s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:16:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.946s]    16 | [01;36m[K{[m[K
+[1.946s]       | [01;36m[K^[m[K
+[1.946s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In constructor ‘[01m[KXsensPublisher::XsensPublisher()[m[K’:
+[1.946s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:19:36:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KXsensPublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+[1.946s]    19 |         : Node("xsens_publisher"), [01;31m[Kcount_[m[K(0)
+[1.946s]       |                                    [01;31m[K^~~~~~[m[K
+[1.953s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:21:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[1.953s]    21 |             [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("topic", 10);
+[1.953s]       |             [01;31m[K^~~~~~~~~~[m[K
+[1.953s]       |             [32m[Krmw_publisher_t[m[K
+[1.962s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:22:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[1.962s]    22 |             [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[1.962s]       |             [01;31m[K^~~~~~[m[K
+[1.962s]       |             [32m[Ktimer_t[m[K
+[1.969s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K In member function ‘[01m[Kvoid XsensPublisher::timer_callback()[m[K’:
+[1.969s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:31:13:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KRCLCPP_INFO[m[K’
+[1.969s]    31 |             [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "Publishing:";
+[1.969s]       |             [01;31m[K^~~~~~~~~~~[m[K
+[1.969s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:31:24:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.969s]    31 |             RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Publishing:";
+[1.969s]       |                        [01;31m[K^[m[K
+[1.969s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:28:9:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.969s]    28 |         [01;36m[K{[m[K
+[1.969s]       |         [01;36m[K^[m[K
+[1.969s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:[m[K At global scope:
+[1.970s] [01m[K/home/ngocdai/lidar_ws/src/xsens_node/src/xsens_data_publisher.cpp:31:24:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[1.970s]    31 |             RCLCPP_INFO[01;31m[K([m[Kthis->get_logger(), "Publishing:";
+[1.970s]       |                        [01;31m[K^[m[K
+[2.740s] gmake[2]: *** [CMakeFiles/xsens_pub.dir/build.make:76: CMakeFiles/xsens_pub.dir/src/xsens_data_publisher.cpp.o] Error 1
+[2.740s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/xsens_pub.dir/all] Error 2
+[2.740s] gmake: *** [Makefile:146: all] Error 2
+[2.742s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_node' returned '2': AMENT_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/opt/ros/iron LD_LIBRARY_PATH=/home/ngocdai/lidar_ws/install/xsens_library/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_node -- -j12 -l12

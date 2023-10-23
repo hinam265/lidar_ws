@@ -1,0 +1,40 @@
+[0.009s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_library -- -j12 -l12
+[0.038s] [ 50%] [32mBuilding CXX object CMakeFiles/xdpchandler.dir/src/xdpchandler.cpp.o[0m
+[0.371s] In file included from [01m[K/usr/local/movella/include/xstypes/xssdidata.h:35[m[K,
+[0.371s]                  from [01m[K/usr/local/movella/include/xstypes/xsdatapacket.h:42[m[K,
+[0.371s]                  from [01m[K/usr/local/movella/include/xstypes/xsdatapacketptrarray.h:34[m[K,
+[0.371s]                  from [01m[K/usr/local/movella/include/movelladot_pc_sdk/xsdotcallbackplainc.h:22[m[K,
+[0.371s]                  from [01m[K/usr/local/movella/include/movelladot_pc_sdk/xsdotcallback.h:19[m[K,
+[0.371s]                  from [01m[K/usr/local/movella/include/movelladot_pc_sdk.h:18[m[K,
+[0.371s]                  from [01m[K/home/ngocdai/lidar_ws/src/xsens_library/include/xsens_library/xdpchandler.h:4[m[K,
+[0.371s]                  from [01m[K/home/ngocdai/lidar_ws/src/xsens_library/src/xdpchandler.cpp:1[m[K:
+[0.371s] [01m[K/usr/local/movella/include/xstypes/xsquaternion.h:73:17:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[0.371s]    73 |                 [01;35m[K{[m[K
+[0.371s]       |                 [01;35m[K^[m[K
+[0.374s] In file included from [01m[K/usr/local/movella/include/xstypes/xsdatapacket.h:46[m[K,
+[0.374s]                  from [01m[K/usr/local/movella/include/xstypes/xsdatapacketptrarray.h:34[m[K,
+[0.374s]                  from [01m[K/usr/local/movella/include/movelladot_pc_sdk/xsdotcallbackplainc.h:22[m[K,
+[0.374s]                  from [01m[K/usr/local/movella/include/movelladot_pc_sdk/xsdotcallback.h:19[m[K,
+[0.374s]                  from [01m[K/usr/local/movella/include/movelladot_pc_sdk.h:18[m[K,
+[0.374s]                  from [01m[K/home/ngocdai/lidar_ws/src/xsens_library/include/xsens_library/xdpchandler.h:4[m[K,
+[0.374s]                  from [01m[K/home/ngocdai/lidar_ws/src/xsens_library/src/xdpchandler.cpp:1[m[K:
+[0.374s] [01m[K/usr/local/movella/include/xstypes/xseuler.h:177:17:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[0.374s]   177 |                 [01;35m[K{[m[K
+[0.374s]       |                 [01;35m[K^[m[K
+[0.374s] [01m[K/usr/local/movella/include/xstypes/xseuler.h:183:17:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[0.375s]   183 |                 [01;35m[K{[m[K
+[0.375s]       |                 [01;35m[K^[m[K
+[0.900s] [100%] [32m[1mLinking CXX static library libxdpchandler.a[0m
+[0.924s] [100%] Built target xdpchandler
+[0.932s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/xsens_library -- -j12 -l12
+[0.953s] Invoking command in '/home/ngocdai/lidar_ws/build/xsens_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/xsens_library
+[0.958s] -- Install configuration: ""
+[0.958s] -- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/library_path.sh
+[0.958s] -- Installing: /home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/environment/library_path.dsv
+[0.958s] [31mCMake Error at cmake_install.cmake:54 (file):
+[0.958s]   file INSTALL cannot find
+[0.958s]   "/home/ngocdai/lidar_ws/src/xsens_library/include/xdpchandler": No such
+[0.958s]   file or directory.
+[0.958s] 
+[0.958s] [0m
+[0.959s] Invoked command in '/home/ngocdai/lidar_ws/build/xsens_library' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/xsens_library
