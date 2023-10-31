@@ -1,0 +1,78 @@
+[0.063s] Invoking command in '/home/ngocdai/lidar_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/diffdrive_arduino:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake /home/ngocdai/lidar_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/ngocdai/lidar_ws/install/diffdrive_arduino
+[0.073s] -- Found ament_cmake_python: 2.0.3 (/opt/ros/iron/share/ament_cmake_python/cmake)
+[0.073s] -- Found ament_cmake: 2.0.3 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.192s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.197s] -- Found xsens_library: 0.0.0 (/home/ngocdai/lidar_ws/install/xsens_library/share/xsens_library/cmake)
+[0.198s] -- Found nav_msgs: 5.0.0 (/opt/ros/iron/share/nav_msgs/cmake)
+[0.219s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.226s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[0.236s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.248s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.409s] -- Found sensor_msgs: 5.0.0 (/opt/ros/iron/share/sensor_msgs/cmake)
+[0.488s] -- Found yaml_cpp_vendor: 8.1.2 (/opt/ros/iron/share/yaml_cpp_vendor/cmake)
+[0.488s] -- Found tf2_geometry_msgs: 0.31.5 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)
+[0.491s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[0.492s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.654s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[0.655s] -- Found rmw_fastrtps_cpp: 7.1.1 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[0.780s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.170s] -- Found hardware_interface: 3.19.1 (/opt/ros/iron/share/hardware_interface/cmake)
+[1.543s] -- Found ament_cmake_gtest: 2.0.3 (/opt/ros/iron/share/ament_cmake_gtest/cmake)
+[1.595s] -- Configuring done
+[1.614s] -- Generating done
+[1.616s] -- Build files have been written to: /home/ngocdai/lidar_ws/build/diffdrive_arduino
+[1.626s] Invoked command in '/home/ngocdai/lidar_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/diffdrive_arduino:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake /home/ngocdai/lidar_ws/src/diffdrive_arduino -DCMAKE_INSTALL_PREFIX=/home/ngocdai/lidar_ws/install/diffdrive_arduino
+[1.627s] Invoking command in '/home/ngocdai/lidar_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/diffdrive_arduino:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/diffdrive_arduino -- -j12 -l12
+[1.669s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[1.669s] [35m[1mConsolidate compiler generated dependencies of target imu_rec[0m
+[1.669s] [35m[1mConsolidate compiler generated dependencies of target imu_pub[0m
+[1.690s] [ 66%] Built target diffdrive_arduino
+[1.690s] [ 66%] Built target imu_rec
+[1.693s] [100%] Built target imu_pub
+[1.704s] Invoked command in '/home/ngocdai/lidar_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/diffdrive_arduino:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --build /home/ngocdai/lidar_ws/build/diffdrive_arduino -- -j12 -l12
+[1.739s] Invoking command in '/home/ngocdai/lidar_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/diffdrive_arduino:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/diffdrive_arduino
+[1.746s] -- Install configuration: ""
+[1.746s] -- Execute custom install script
+[1.747s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/lib/diffdrive_arduino//imu_pub
+[1.747s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/lib/diffdrive_arduino//imu_rec
+[1.747s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino//diffdrive_arduino.xml
+[1.747s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/arduino_comms.hpp
+[1.747s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/diffbot_system.hpp
+[1.747s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/tempCodeRunnerFile.hpp
+[1.747s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/visibility_control.h
+[1.748s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/include/diffdrive_arduino/diffdrive_arduino/wheel.hpp
+[1.748s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/view_robot.launch.py
+[1.748s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/ros2_control/diffbot.ros2_control.xacro
+[1.748s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.materials.xacro
+[1.748s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot.urdf.xacro
+[1.748s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/diffbot_description.urdf.xacro
+[1.748s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/urdf/imu.xacro
+[1.749s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot.rviz
+[1.749s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/rviz/diffbot_view.rviz
+[1.749s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/launch/diffbot.launch.py
+[1.749s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/diffbot_controllers.yaml
+[1.749s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/config/ekf.yaml
+[1.749s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[1.750s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[1.750s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[1.750s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[1.750s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[1.750s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[1.750s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[1.750s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[1.750s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[1.751s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[1.751s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[1.751s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[1.751s] -- Symlinking: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[1.760s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[1.760s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[1.760s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake
+[1.760s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.760s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[1.760s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[1.761s] -- Up-to-date symlink: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[1.761s] -- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[1.761s] -- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport.cmake
+[1.761s] -- Up-to-date: /home/ngocdai/lidar_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/export_diffdrive_arduinoExport-noconfig.cmake
+[1.763s] Invoked command in '/home/ngocdai/lidar_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/ngocdai/lidar_ws/install/xsens_library:/home/ngocdai/lidar_ws/install/xsens_node:/home/ngocdai/lidar_ws/install/diffdrive_arduino:/home/ngocdai/lidar_ws/install/cpp_xsens:/home/ngocdai/lidar_ws/install/my_bleak:/opt/ros/iron /usr/bin/cmake --install /home/ngocdai/lidar_ws/build/diffdrive_arduino
